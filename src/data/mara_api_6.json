@@ -1,0 +1,68 @@
+{
+  "pinnedNoticeList": [],
+  "noticePage": {
+    "content": [
+      {
+        "no": 4,
+        "id": "0d3956c9-424a-4df2-af3b-bef3ecfa5a47",
+        "title": "▶기념품 이미지 및 변경 가능성 안내",
+        "category": "필독",
+        "createdAt": "2026-01-21T11:32:52",
+        "author": "총관리자",
+        "viewCount": 0
+      },
+      {
+        "no": 3,
+        "id": "3e9c04a8-6b32-4854-9300-3eacc7fb8e6d",
+        "title": "▶ 단체 ID 입력 및 관리 유의사항 안내",
+        "category": "필독",
+        "createdAt": "2026-01-21T11:32:26",
+        "author": "총관리자",
+        "viewCount": 0
+      },
+      {
+        "no": 2,
+        "id": "aaf25ab5-28fe-4209-bf71-30cdac7b016e",
+        "title": "▶ 마라톤 대회 셔틀버스 미운행 안내",
+        "category": "필독",
+        "createdAt": "2026-01-21T11:31:53",
+        "author": "총관리자",
+        "viewCount": 0
+      },
+      {
+        "no": 1,
+        "id": "885ed771-765f-42da-9f69-661e8d095dd3",
+        "title": "▶참가 신청 환불 및 재접수 유의사항 안내",
+        "category": "필독",
+        "createdAt": "2026-01-21T11:31:30",
+        "author": "총관리자",
+        "viewCount": 0
+      }
+    ],
+    "pageable": {
+      "pageNumber": 0,
+      "pageSize": 5,
+      "sort": {
+        "sorted": false,
+        "unsorted": true,
+        "empty": true
+      },
+      "offset": 0,
+      "unpaged": false,
+      "paged": true
+    },
+    "totalPages": 1,
+    "totalElements": 4,
+    "last": true,
+    "numberOfElements": 4,
+    "size": 5,
+    "number": 0,
+    "sort": {
+      "sorted": false,
+      "unsorted": true,
+      "empty": true
+    },
+    "first": true,
+    "empty": false
+  }
+}

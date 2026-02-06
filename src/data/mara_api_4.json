@@ -1,0 +1,50 @@
+[
+  {
+    "url": "https://worldrun1080.com/shop/",
+    "imageUrl": "https://kma-dev-bucket.s3.ap-northeast-2.amazonaws.com/IMAGE/MAIN_BANNER/439dbf0f-652b-42ab-9c49-36a1e245964a_68ad3c5e0f653.jpg",
+    "orderNo": 1,
+    "visible": true
+  },
+  {
+    "url": "https://worldrun1080.com/shop/item.php?it_id=1760080313",
+    "imageUrl": "https://kma-dev-bucket.s3.ap-northeast-2.amazonaws.com/IMAGE/MAIN_BANNER/9c343e3f-2200-4519-82f3-995a569b9f94_68ec779805713.jpg",
+    "orderNo": 2,
+    "visible": true
+  },
+  {
+    "url": "https://www.youtube.com/@MarathonLeaderJang",
+    "imageUrl": "https://kma-dev-bucket.s3.ap-northeast-2.amazonaws.com/IMAGE/MAIN_BANNER/9592249e-9793-4d09-9684-c1fb2418ca36_68468d2e79d39.jpg",
+    "orderNo": 3,
+    "visible": true
+  },
+  {
+    "url": "https://www.youtube.com/@jeonmahyeop",
+    "imageUrl": "https://kma-dev-bucket.s3.ap-northeast-2.amazonaws.com/IMAGE/MAIN_BANNER/852e4611-7f35-42e3-882d-7a20ad4c1000_64f13f055470d.jpg",
+    "orderNo": 4,
+    "visible": true
+  },
+  {
+    "url": "http://www.run1080.com/new/mini/index.php?code=1446",
+    "imageUrl": "https://kma-dev-bucket.s3.ap-northeast-2.amazonaws.com/IMAGE/MAIN_BANNER/3f734674-6754-4dfb-8504-91b66ccaabea_67469eae4fb23.jpg",
+    "orderNo": 5,
+    "visible": true
+  },
+  {
+    "url": "http://100years.run1080.com/",
+    "imageUrl": "https://kma-dev-bucket.s3.ap-northeast-2.amazonaws.com/IMAGE/MAIN_BANNER/a29154c5-88b0-4a5e-ba67-12a27f28fe13_6746cb5528629.jpg",
+    "orderNo": 6,
+    "visible": true
+  },
+  {
+    "url": "http://www.run1080.com/new/mini/index.php?code=1423",
+    "imageUrl": "https://kma-dev-bucket.s3.ap-northeast-2.amazonaws.com/IMAGE/MAIN_BANNER/f7167865-c812-4cfc-b1d2-a2eb97cabe8b_6746cae7e619c.jpg",
+    "orderNo": 7,
+    "visible": true
+  },
+  {
+    "url": "http://www.run1080.com/new/mini/index.php?code=1406",
+    "imageUrl": "https://kma-dev-bucket.s3.ap-northeast-2.amazonaws.com/IMAGE/MAIN_BANNER/32758575-3521-4973-90ae-c0d17e114afe_66dfed25ea2d7.jpg",
+    "orderNo": 8,
+    "visible": true
+  }
+]

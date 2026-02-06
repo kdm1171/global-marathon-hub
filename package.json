@@ -13,7 +13,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.13.4",
+    "cheerio": "^1.2.0",
     "clsx": "latest",
+    "iconv-lite": "^0.7.2",
     "lucide-react": "latest",
     "next": "^14.0.0",
     "react": "^18.0.0",

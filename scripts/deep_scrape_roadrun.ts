@@ -1,62 +1,63 @@
 import { chromium } from 'playwright';
 import fs from 'fs';
-import path from 'path';
 
 async function deepScrapeRoadrun() {
-  console.log('🔍 Starting Deep-Dive Scraper on Roadrun...');
+  console.log('🚀 Starting Full-Scale Deep Scraper (180+ sites)...');
   const browser = await chromium.launch({ headless: true });
-  const page = await browser.newPage();
-
-  const finalAssets: any[] = [];
+  const context = await browser.newContext();
 
   try {
-    // 1. 리스트 페이지 접속
+    const page = await context.newPage();
     await page.goto('http://www.roadrun.co.kr/schedule/list.php', { waitUntil: 'networkidle' });
-    console.log('List page loaded.');
-
-    // 2. 리스트에서 상세 페이지 링크들 추출 (no=... 패턴)
-    const detailLinks = await page.evaluate(() => {
+    
+    const marathonItems = await page.evaluate(() => {
       const anchors = Array.from(document.querySelectorAll('a[href*="view.php?no="]'));
-      return anchors.map(a => (a as HTMLAnchorElement).href);
+      return anchors.map(a => {
+        const match = a.getAttribute('href')?.match(/no=(\d+)/);
+        return match ? { id: match[1], name: a.textContent?.trim() } : null;
+      }).filter(item => item !== null && item.name !== '');
     });
 
-    console.log(`Found ${detailLinks.length} detail pages to analyze.`);
+    console.log(`Found ${marathonItems.length} marathons to check.`);
+    const finalLinks: any[] = [];
 
-    // 3. 각 상세 페이지 진입하여 '원천 데이터' 추출 (자산화)
-    for (const link of detailLinks.slice(0, 10)) { // 우선 상위 10개 테스트
-      await page.goto(link, { waitUntil: 'domcontentloaded' });
-      
-      const detail = await page.evaluate(() => {
-        const title = document.querySelector('.view_title')?.textContent?.trim();
-        const infoTable = document.querySelector('.view_table');
-        const rows = Array.from(infoTable?.querySelectorAll('tr') || []);
-        
-        const info: any = {};
-        rows.forEach(row => {
-          const th = row.querySelector('th')?.textContent?.trim();
-          const td = row.querySelector('td')?.textContent?.trim();
-          if (th && td) info[th] = td;
-        });
-
-        return {
-          title,
-          ...info,
-          source_url: window.location.href,
-          captured_at: new Date().toISOString()
-        };
-      });
-
-      console.log(`✅ Asset Captured: ${detail.title}`);
-      finalAssets.push(detail);
+    // 병렬 처리를 위한 청크 분할 (동시 5개씩)
+    const chunks = [];
+    for (let i = 0; i < marathonItems.length; i += 5) {
+      chunks.push(marathonItems.slice(i, i + 5));
     }
 
-    // 4. 자산 저장
-    const outPath = 'src/data/marathons_assets.json';
-    fs.writeFileSync(outPath, JSON.stringify(finalAssets, null, 2));
-    console.log(`🚀 Successfully archived ${finalAssets.length} deep assets.`);
+    for (const chunk of chunks) {
+      await Promise.all(chunk.map(async (item: any) => {
+        const p = await context.newPage();
+        try {
+          await p.goto(`http://www.roadrun.co.kr/schedule/view.php?no=${item.id}`, { waitUntil: 'domcontentloaded', timeout: 15000 });
+          const officialLink = await p.evaluate(() => {
+            const links = Array.from(document.querySelectorAll('a[href^="http"]'));
+            const home = links.find(a => {
+              const h = (a as HTMLAnchorElement).href;
+              return !h.includes('roadrun.co.kr') && !h.includes('javascript');
+            });
+            return home ? (home as HTMLAnchorElement).href : null;
+          });
+
+          if (officialLink) {
+            console.log(`✅ [${item.id}] ${item.name} -> ${officialLink}`);
+            finalLinks.push({ id: item.id, name: item.name, official_link: officialLink });
+          }
+        } catch (e) {
+          console.log(`❌ [${item.id}] Failed to load`);
+        } finally {
+          await p.close();
+        }
+      }));
+    }
+
+    fs.writeFileSync('src/data/marathons_official_links.json', JSON.stringify(finalLinks, null, 2));
+    console.log(`\n🎉 Finished! Saved ${finalLinks.links} official links.`);
 
   } catch (err) {
-    console.error('Deep scrape failed:', err);
+    console.error('Full scrape failed:', err);
   } finally {
     await browser.close();
   }

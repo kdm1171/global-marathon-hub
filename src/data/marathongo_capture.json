@@ -1,0 +1,26 @@
+{
+  "props": {
+    "pageProps": {}
+  },
+  "page": "/",
+  "query": {},
+  "buildId": "Glmjb0-1yoP3wUvhiGVff",
+  "nextExport": true,
+  "autoExport": true,
+  "isFallback": false,
+  "scriptLoader": [
+    {
+      "id": "ga1",
+      "async": true,
+      "strategy": "afterInteractive",
+      "src": "https://www.googletagmanager.com/gtag/js?id=G-TP3WXYKYG4"
+    },
+    {
+      "id": "gtag-init",
+      "strategy": "afterInteractive",
+      "dangerouslySetInnerHTML": {
+        "__html": "\n            window.dataLayer = window.dataLayer || [];\n              function gtag(){dataLayer.push(arguments);}\n              gtag('js', new Date());\n\n              gtag('config', 'G-TP3WXYKYG4', {\n                page_path: window.location.pathname,\n              });\n          "
+      }
+    }
+  ]
+}

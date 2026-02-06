@@ -1,0 +1,89 @@
+{
+  "content": [
+    {
+      "questionHeader": {
+        "no": 5,
+        "id": "623a4211-310c-42cf-8c3f-59b26daef3fc",
+        "title": "회원탈퇴 신청의 건",
+        "authorName": "질문작성 더미사용자",
+        "createdAt": "2026-01-29T09:59:00",
+        "answered": false,
+        "secret": true
+      },
+      "answerHeader": null
+    },
+    {
+      "questionHeader": {
+        "no": 4,
+        "id": "fd6c59e8-c19d-4048-83c2-e6765eb6b7c8",
+        "title": "비밀번호 알려주세요",
+        "authorName": "질문작성 더미사용자",
+        "createdAt": "2026-01-27T14:30:25",
+        "answered": false,
+        "secret": true
+      },
+      "answerHeader": null
+    },
+    {
+      "questionHeader": {
+        "no": 3,
+        "id": "4c2b5e75-2384-4a72-88dd-f1474a17f87b",
+        "title": "단체신청시 필요한 자료",
+        "authorName": "질문작성 더미사용자",
+        "createdAt": "2026-01-27T10:55:47",
+        "answered": false,
+        "secret": true
+      },
+      "answerHeader": null
+    },
+    {
+      "questionHeader": {
+        "no": 2,
+        "id": "ae8423fa-3f33-43a7-8586-ab48c1c206c1",
+        "title": "종목변경신청",
+        "authorName": "질문작성 더미사용자",
+        "createdAt": "2026-01-26T13:26:37",
+        "answered": false,
+        "secret": true
+      },
+      "answerHeader": null
+    },
+    {
+      "questionHeader": {
+        "no": 1,
+        "id": "668a831d-f7e3-46c5-9ad4-30adca9c5160",
+        "title": "마라톤문의",
+        "authorName": "질문작성 더미사용자",
+        "createdAt": "2026-01-26T10:56:03",
+        "answered": false,
+        "secret": true
+      },
+      "answerHeader": null
+    }
+  ],
+  "pageable": {
+    "pageNumber": 0,
+    "pageSize": 5,
+    "sort": {
+      "sorted": false,
+      "unsorted": true,
+      "empty": true
+    },
+    "offset": 0,
+    "unpaged": false,
+    "paged": true
+  },
+  "totalPages": 1,
+  "totalElements": 5,
+  "last": true,
+  "numberOfElements": 5,
+  "size": 5,
+  "number": 0,
+  "sort": {
+    "sorted": false,
+    "unsorted": true,
+    "empty": true
+  },
+  "first": true,
+  "empty": false
+}

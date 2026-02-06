@@ -1,0 +1,113 @@
+{
+  "2026-02": [],
+  "2026-03": [
+    {
+      "eventId": "0566e5c2-e218-436f-b000-61cb42ab591d",
+      "eventImgSrc": "https://kma-dev-bucket.s3.ap-northeast-2.amazonaws.com/IMAGE/EVENT/c0937240-5688-4661-975b-8296770c9c20_2026%E1%84%87%E1%85%A9%E1%84%8B%E1%85%B3%E1%86%AB-%E1%84%87%E1%85%A9%E1%84%8E%E1%85%A5%E1%86%BC%E1%84%8E%E1%85%A5%E1%86%AB_%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AB_%E1%84%8E%E1%85%AC%E1%84%89%E1%85%B5%E1%86%AB.jpg",
+      "eventNameKr": "[대회취소]2026 제1회 보은 보청천 마라톤대회",
+      "eventNameEn": "Bocheong Marathon 2026",
+      "eventDate": "2026-03-14T06:00:00",
+      "status": "CLOSED",
+      "eventDeadLine": "2026-03-06T06:00:00",
+      "categoryNames": "10km,5km,Half",
+      "eventType": "KMA",
+      "eventUrl": null
+    },
+    {
+      "eventId": "db8bfa91-d6de-4591-9f19-8f48da3adc7b",
+      "eventImgSrc": "https://kma-dev-bucket.s3.ap-northeast-2.amazonaws.com/IMAGE/EVENT/8d5094e2-7432-46e8-914a-1bdf9cac4093_2026-%EA%B8%88%EC%82%B0-%EC%9D%B8%EC%82%BC-%EB%A7%88%EB%9D%BC%ED%86%A4-%EB%8C%80%ED%9A%8C_%EB%A9%94%EC%9D%B8.jpg",
+      "eventNameKr": "2026 금산 인삼 웰빙 마라톤 대회  (신규)",
+      "eventNameEn": "2026 Geumsan ginseng well-being marathon",
+      "eventDate": "2026-03-14T09:00:00",
+      "status": "OPEN",
+      "eventDeadLine": "2026-03-01T00:00:00",
+      "categoryNames": "10km,5km,Half",
+      "eventType": "KMA",
+      "eventUrl": null
+    },
+    {
+      "eventId": "7284aebc-502f-406a-95e5-a43a70893547",
+      "eventImgSrc": "https://kma-dev-bucket.s3.ap-northeast-2.amazonaws.com/IMAGE/EVENT/e29fc242-7fec-42a2-af49-74df04167308_KakaoTalk_20251205_102309111_01_%281%29.jpg",
+      "eventNameKr": "2026 무주반딧불하프마라톤",
+      "eventNameEn": "muju",
+      "eventDate": "2026-03-29T09:00:00",
+      "status": "OPEN",
+      "eventDeadLine": "2026-02-28T23:00:00",
+      "categoryNames": "10km,21km,5km",
+      "eventType": "KMA",
+      "eventUrl": null
+    }
+  ],
+  "2026-04": [
+    {
+      "eventId": "b2dd5c44-a875-484a-b2b5-38b21977e56b",
+      "eventImgSrc": "https://kma-dev-bucket.s3.ap-northeast-2.amazonaws.com/IMAGE/EVENT/f1578e6d-c495-4d20-a7e2-4e779337a184_%E1%84%8C%E1%85%A627%E1%84%92%E1%85%AC-%E1%84%8B%E1%85%B5%E1%84%8E%E1%85%A5%E1%86%AB-%E1%84%83%E1%85%A9%E1%84%8C%E1%85%A1%E1%84%80%E1%85%B5-%E1%84%86%E1%85%A1%E1%84%85%E1%85%A1%E1%84%90%E1%85%A9%E1%86%AB%E1%84%83%E1%85%A2%E1%84%92%E1%85%AC-%E1%84%86%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AB.jpg",
+      "eventNameKr": "제27회 이천 도자기 마라톤대회",
+      "eventNameEn": " 27th Icheon Marathon",
+      "eventDate": "2026-04-05T06:00:00",
+      "status": "CLOSED",
+      "eventDeadLine": "2026-03-07T06:00:00",
+      "categoryNames": "10km,5km,Half",
+      "eventType": "KMA",
+      "eventUrl": null
+    },
+    {
+      "eventId": "8921cdef-67fc-4e1c-9237-763520b90c80",
+      "eventImgSrc": "https://kma-dev-bucket.s3.ap-northeast-2.amazonaws.com/IMAGE/EVENT/044a4904-d4eb-46a2-8b79-16c7bf11b128_KakaoTalk_20251210_091418516_01_%281%29.jpg",
+      "eventNameKr": "제30회 삼척 황영조 국제마라톤대회",
+      "eventNameEn": "samcheok",
+      "eventDate": "2026-04-25T09:00:00",
+      "status": "CLOSED",
+      "eventDeadLine": "2026-01-30T11:20:00",
+      "categoryNames": "10km,21km,42km,5km",
+      "eventType": "KMA",
+      "eventUrl": null
+    },
+    {
+      "eventId": "e40f1082-eb59-40b3-9fbe-b05afe6bf741",
+      "eventImgSrc": "https://kma-dev-bucket.s3.ap-northeast-2.amazonaws.com/IMAGE/EVENT/391084f5-0664-4d7c-8c1e-feeef2cd46a7_%EC%A0%9C4%ED%9A%8C-%EC%95%84%EC%82%B0-%EC%9D%B4%EC%88%9C%EC%8B%A0-%EB%B0%B1%EC%9D%98%EC%A2%85%EA%B5%B0%EA%B8%B8-%EB%A7%88%EB%9D%BC%ED%86%A4%EB%8C%80%ED%9A%8C_main_%EC%B5%9C%EC%8B%A0.jpg",
+      "eventNameKr": "아산 이순신 백의종군길 마라톤대회",
+      "eventNameEn": "Yi-Sun-Sin Baekuijonggun-Path marathon",
+      "eventDate": "2026-04-26T08:00:00",
+      "status": "CLOSED",
+      "eventDeadLine": "2026-02-06T20:30:00",
+      "categoryNames": "10km,10km(짝궁런),4km,Full,Half",
+      "eventType": "KMA",
+      "eventUrl": null
+    }
+  ],
+  "2026-05": [
+    {
+      "eventId": "6c02d9f8-cbe9-4a7b-ba9d-6e1f93a18b1a",
+      "eventImgSrc": "https://kma-dev-bucket.s3.ap-northeast-2.amazonaws.com/IMAGE/EVENT/623b7aeb-63d9-49ff-baf2-6d11c7965b3c_%EC%A0%9C21%ED%9A%8C-%EB%B3%B4%EC%84%B1%EB%85%B9%EC%B0%A8%EB%A7%88%EB%9D%BC%ED%86%A4_%EB%A9%94%EC%9D%B83.jpg",
+      "eventNameKr": "제21회 보성 녹차 마라톤대회",
+      "eventNameEn": "2026 Boseong greentea marathon",
+      "eventDate": "2026-05-02T08:30:00",
+      "status": "OPEN",
+      "eventDeadLine": "2026-03-18T06:00:00",
+      "categoryNames": "10km,5km,Full,Half",
+      "eventType": "KMA",
+      "eventUrl": null
+    },
+    {
+      "eventId": "d9909060-99e2-49ff-9112-0dc6c7c4d1db",
+      "eventImgSrc": "https://kma-dev-bucket.s3.ap-northeast-2.amazonaws.com/IMAGE/EVENT/3345372c-2361-49b9-8e93-d6eabcaff039_2026-%EA%B8%88%EC%82%B0-%EC%9B%94%EB%93%9C%EB%9F%B0-%EB%A7%88%EB%9D%BC%ED%86%A4%EC%B6%95%EC%A0%9C_%EB%A9%94%EC%9D%B8.jpg",
+      "eventNameKr": "전마협 창단 25주년 기념 2026 금산 월드런 마라톤축제",
+      "eventNameEn": "2026 Geumsan worldrun marathon festival",
+      "eventDate": "2026-05-31T08:00:00",
+      "status": "OPEN",
+      "eventDeadLine": "2026-05-01T09:00:00",
+      "categoryNames": "10km,5km,Half",
+      "eventType": "KMA",
+      "eventUrl": null
+    }
+  ],
+  "2026-06": [],
+  "2026-07": [],
+  "2026-08": [],
+  "2026-09": [],
+  "2026-10": [],
+  "2026-11": [],
+  "2026-12": [],
+  "2027-01": []
+}

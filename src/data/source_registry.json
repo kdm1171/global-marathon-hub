@@ -1,0 +1,1812 @@
+[
+  {
+    "marathon_id": 1,
+    "official_url": "https://www.seoul-marathon.com/",
+    "engine": "imweb",
+    "status_selector": "",
+    "last_analyzed": "2026-02-06T19:25:44.061Z"
+  },
+  {
+    "id": 1,
+    "name": "2026 서울국제마라톤 (동아마라톤)",
+    "url": "https://www.seoul-marathon.com/",
+    "engine": "imweb",
+    "selector": "span.plain_name",
+    "status": "analyzed",
+    "last_checked": "2026-02-06T19:30:09.502Z"
+  },
+  {
+    "id": 2,
+    "name": "제24회 대구국제마라톤대회",
+    "url": "https://daegumarathon.com/",
+    "engine": "unknown",
+    "selector": "",
+    "status": "analyzed",
+    "last_checked": null
+  },
+  {
+    "id": 1,
+    "name": "2026 전마협 별들의전쟁&꽃들의전쟁 클럽대항",
+    "url": "http://www.run1080.com/new/mini/index.php?code=1527",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:46:29.986Z"
+  },
+  {
+    "id": 2,
+    "name": "2026 네버스탑: 1,000K 돌파 팀마라톤",
+    "url": "http://neverstopofficial.imweb.me/20",
+    "engine": "imweb",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:46:33.814Z"
+  },
+  {
+    "id": 3,
+    "name": "희망드림 제23회 동계 국제 마라톤",
+    "url": "http://dkrun.co.kr/",
+    "engine": "custom",
+    "selector": "a.dropdown-toggle",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:46:36.710Z"
+  },
+  {
+    "id": 4,
+    "name": "제3회 산들소리향기마라톤",
+    "url": "http://recyclerun.kr/",
+    "engine": "custom",
+    "selector": "a.place_button",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:46:38.873Z"
+  },
+  {
+    "id": 5,
+    "name": "2026 순천만국가정원 윷놀이런",
+    "url": "http://projectruntrip-pre.linkstory.co.kr/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:46:39.659Z"
+  },
+  {
+    "id": 6,
+    "name": "2026전마협 청주 무심천 투데이 마라톤(토)",
+    "url": "http://www.run1080.com/new/mini/index.php?code=1518",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:46:41.794Z"
+  },
+  {
+    "id": 7,
+    "name": "엘리트x마스터즈2026제주MBC국제평화마라톤",
+    "url": "http://marathon.jejumbc.com/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:46:43.692Z"
+  },
+  {
+    "id": 8,
+    "name": "제7회 휴먼레이스(취소)",
+    "url": "http://www.irunman.kr/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:46:46.109Z"
+  },
+  {
+    "id": 9,
+    "name": "2026 청춘릴레이 마라톤",
+    "url": "http://youngrun.kr/",
+    "engine": "custom",
+    "selector": "#updataLink",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:46:48.374Z"
+  },
+  {
+    "id": 10,
+    "name": "2026 평창 대관령 알몸 마라톤",
+    "url": "http://woozy-lint-81b.notion.site/2c5fc7db1f9580c0b81af74c94794eb6?source=copy_link",
+    "engine": "notion",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null
+  },
+  {
+    "id": 11,
+    "name": "2026 고구려 마라톤",
+    "url": "http://runable.me/product/3212?comp=3203",
+    "engine": "custom",
+    "selector": "strong.sc-749e84a2-14",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:47:21.265Z"
+  },
+  {
+    "id": 12,
+    "name": "제22회 밀양아리랑마라톤",
+    "url": "http://www.miryangmarathon.com/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:47:21.988Z"
+  },
+  {
+    "id": 13,
+    "name": "2026 경기수원국제하프마라톤",
+    "url": "http://www.ggimarathon.com/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:47:24.479Z"
+  },
+  {
+    "id": 14,
+    "name": "2026 챌린지 레이스",
+    "url": "http://mcrace.co.kr/",
+    "engine": "custom",
+    "selector": "a.action",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:47:28.697Z"
+  },
+  {
+    "id": 15,
+    "name": "제9회 산불조심 한국서울마라톤",
+    "url": "http://www.koreatrail.net/home/main.php?link=event&einc=eapp&opp=20251010095641&csno=20190605121808#baseline",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:47:29.831Z"
+  },
+  {
+    "id": 16,
+    "name": "2026 보스턴 영웅 마라톤",
+    "url": "http://bostonrun.kr/",
+    "engine": "custom",
+    "selector": "a.small-menu-util__link",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:47:32.013Z"
+  },
+  {
+    "id": 17,
+    "name": "2026전마협 청주 무심천 투데이 마라톤(일)",
+    "url": "http://www.run1080.com/new/mini/index.php?code=1517",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:47:34.345Z"
+  },
+  {
+    "id": 18,
+    "name": "부산 영도트레일런",
+    "url": "http://www.mtrailrun.kr/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:47:37.620Z"
+  },
+  {
+    "id": 19,
+    "name": "2026 대구마라톤",
+    "url": "http://daegu.go.kr/daegumarathon/",
+    "engine": "custom",
+    "selector": "button.btn-dropdown",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:47:43.052Z"
+  },
+  {
+    "id": 20,
+    "name": "JUST RUN10 전국 10K 러닝 대회",
+    "url": "http://runten.co.kr/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:47:44.946Z"
+  },
+  {
+    "id": 21,
+    "name": "2026 3.1절기념 제27회 건강달리기",
+    "url": "http://kw-marathon.com/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:47:47.338Z"
+  },
+  {
+    "id": 22,
+    "name": "제13회 안중근 평화 마라톤대회",
+    "url": "http://ajgrun.kr/",
+    "engine": "custom",
+    "selector": "span.news_number",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:47:49.372Z"
+  },
+  {
+    "id": 23,
+    "name": "3.1절 107주년 기념 단축 마라톤",
+    "url": "http://31day.co.kr/",
+    "engine": "unknown",
+    "selector": null,
+    "status": "permanent_failure",
+    "last_analyzed": null
+  },
+  {
+    "id": 24,
+    "name": "2026 환경사랑부산 K-런",
+    "url": "http://k-marathon.or.kr/",
+    "engine": "custom",
+    "selector": "a.scroll_move",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:48:21.629Z"
+  },
+  {
+    "id": 25,
+    "name": "삼일절 컴포트 선언 러닝",
+    "url": "https://ssl.pstatic.net/static/maps/mantle/notice/legal.html",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:48:22.202Z"
+  },
+  {
+    "id": 26,
+    "name": "2026 구미 박정희 마라톤",
+    "url": "http://www.gumimarathon.com/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:48:24.309Z"
+  },
+  {
+    "id": 27,
+    "name": "제61회 광주일보 3.1절 전국마라톤",
+    "url": "http://31marathon.kr/",
+    "engine": "unknown",
+    "selector": "a",
+    "status": "analyzed",
+    "last_analyzed": null
+  },
+  {
+    "id": 28,
+    "name": "2026 머니투데이방송 삼일절 마라톤",
+    "url": "http://www.samilrun.com/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:48:35.166Z"
+  },
+  {
+    "id": 29,
+    "name": "제2회 서울경기육상연합 하프 마라톤 대회",
+    "url": "http://sgrun.kr/",
+    "engine": "custom",
+    "selector": "a.mobile_nav_btn",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:48:37.005Z"
+  },
+  {
+    "id": 30,
+    "name": "제21회 부산 비치울트라 마라톤 대회",
+    "url": "http://beachultra.kr/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:48:37.801Z"
+  },
+  {
+    "id": 31,
+    "name": "2026 예천군민 마스터즈",
+    "url": "http://www.ycg.kr/open.content/ko/administrative/news/notice/?i=175950",
+    "engine": "custom",
+    "selector": "a.window-open",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:48:40.090Z"
+  },
+  {
+    "id": 32,
+    "name": "2026 MBN 블루레이스 거제",
+    "url": "http://marathon-mbngj.com/",
+    "engine": "wordpress",
+    "selector": "a.elementor-button",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:48:43.714Z"
+  },
+  {
+    "id": 33,
+    "name": "제4회 코리아오픈 레이스",
+    "url": "http://www.koreaopenrace.com/",
+    "engine": "custom",
+    "selector": "a.header-inquiry",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:48:45.107Z"
+  },
+  {
+    "id": 34,
+    "name": "2026 부천국제10km로드레이스",
+    "url": "http://bskrun.co.kr/",
+    "engine": "custom",
+    "selector": "a.wc-btn-primary",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:48:47.213Z"
+  },
+  {
+    "id": 35,
+    "name": "2026 금산 인삼 웰빙 마라톤대회",
+    "url": "http://mara1080.com/event/db8bfa91-d6de-4591-9f19-8f48da3adc7b",
+    "engine": "unknown",
+    "selector": null,
+    "status": "permanent_failure",
+    "last_analyzed": null
+  },
+  {
+    "id": 36,
+    "name": "2026 전국민 러닝크루 패밀리 마라톤",
+    "url": "http://familyrun.kr/",
+    "engine": "custom",
+    "selector": "a.gnb_1da",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:49:19.206Z"
+  },
+  {
+    "id": 37,
+    "name": "2026 고양특례시 하프마라톤",
+    "url": "http://www.goyangmarathon.com/",
+    "engine": "imweb",
+    "selector": "a.has_child",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:49:21.302Z"
+  },
+  {
+    "id": 38,
+    "name": "제16회 여의도 벚꽃 마라톤",
+    "url": "http://xn--js0bk9fwvdgzcd5e88r2kcx06a.kr/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:49:23.726Z"
+  },
+  {
+    "id": 39,
+    "name": "2026 성주참외 전국마라톤",
+    "url": "http://sjmelon.kr/",
+    "engine": "custom",
+    "selector": "a.one",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:49:24.709Z"
+  },
+  {
+    "id": 40,
+    "name": "제20회 창녕부곡 온천마라톤",
+    "url": "http://www.cngmarathon.co.kr/",
+    "engine": "custom",
+    "selector": "a.gnb_1da",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:49:26.932Z"
+  },
+  {
+    "id": 41,
+    "name": "2026 입춘대길 제1회 춘천 소양강마라톤",
+    "url": "http://www.ccpmarathon.kr/spring/index.php",
+    "engine": "custom",
+    "selector": "a.nav-link",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:49:29.426Z"
+  },
+  {
+    "id": 42,
+    "name": "2026 지리산봄꽃레이스",
+    "url": "http://jirisanrace.com/",
+    "engine": "custom",
+    "selector": "a.view",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:49:32.546Z"
+  },
+  {
+    "id": 43,
+    "name": "2026 JUST RUN10 청주",
+    "url": "http://runten.co.kr/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:49:34.408Z"
+  },
+  {
+    "id": 44,
+    "name": "2026 서울마라톤",
+    "url": "http://seoul-marathon.com/",
+    "engine": "imweb",
+    "selector": "span.plain_name",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:49:36.991Z"
+  },
+  {
+    "id": 45,
+    "name": "2026 남해트레일레이스",
+    "url": "http://rocknrun.kr/",
+    "engine": "imweb",
+    "selector": "span.plain_name",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:49:40.441Z"
+  },
+  {
+    "id": 46,
+    "name": "2026 제6회 버킷런",
+    "url": "http://www.bucketrun.co.kr/",
+    "engine": "custom",
+    "selector": "a.dp1",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:49:42.428Z"
+  },
+  {
+    "id": 47,
+    "name": "2026 내포마라톤",
+    "url": "http://www.nprace.co.kr/",
+    "engine": "custom",
+    "selector": "a.link_btn",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:49:44.905Z"
+  },
+  {
+    "id": 48,
+    "name": "제24회 성우하이텍배 KNN환경마라톤",
+    "url": "http://marathon.knn.co.kr/",
+    "engine": "custom",
+    "selector": "#navbarDropdown",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:49:47.889Z"
+  },
+  {
+    "id": 49,
+    "name": "제3회 불패 마라톤",
+    "url": "http://bulpaerun.com/",
+    "engine": "custom",
+    "selector": "a.naviDepth1_join",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:49:49.605Z"
+  },
+  {
+    "id": 50,
+    "name": "2026 정읍동학마라톤",
+    "url": "http://www.jdmarathon.com/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:49:50.683Z"
+  },
+  {
+    "id": 51,
+    "name": "제2회 의성마늘마라톤",
+    "url": "http://uiseongrun.kr/",
+    "engine": "custom",
+    "selector": "a.px-8",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:49:56.168Z"
+  },
+  {
+    "id": 52,
+    "name": "2026 여수 영취산 진달래 트레일레이스",
+    "url": "http://rocknrun.kr/",
+    "engine": "imweb",
+    "selector": "span.plain_name",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:49:59.243Z"
+  },
+  {
+    "id": 53,
+    "name": "2026 금강울트라마라톤",
+    "url": "http://dtrail.co.kr/45",
+    "engine": "imweb",
+    "selector": "a.has_child",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:50:02.257Z"
+  },
+  {
+    "id": 54,
+    "name": "2026 서울 K-마라톤",
+    "url": "http://seoulmarathon.org/main.php",
+    "engine": "custom",
+    "selector": "span.information_title",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:50:04.617Z"
+  },
+  {
+    "id": 55,
+    "name": "제26회 인천국제하프마라톤",
+    "url": "http://www.incheonmarathon.co.kr/",
+    "engine": "custom",
+    "selector": "a.menu-link",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:50:06.185Z"
+  },
+  {
+    "id": 56,
+    "name": "제2회 영광 광풍 마라톤",
+    "url": "http://yeonggwang.run1080.com/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:50:07.020Z"
+  },
+  {
+    "id": 57,
+    "name": "제23회 태화강 마라톤",
+    "url": "http://www.ulsanmaeilmara.com/html/00_main/main.php",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:50:09.670Z"
+  },
+  {
+    "id": 58,
+    "name": "제42회 코오롱구간마라톤대회",
+    "url": "http://marathon.co.kr/marathon.asp",
+    "engine": "custom",
+    "selector": "a.lnb_m_a",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:50:12.076Z"
+  },
+  {
+    "id": 59,
+    "name": "2026 산불조심 한국남산우정마라톤",
+    "url": "http://www.koreatrail.net/home/main.php?link=event&einc=eapp&opp=20250511200816&csno=20220129141659#baseline",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:50:12.954Z"
+  },
+  {
+    "id": 60,
+    "name": "2026 제3회 구리시 걷기&트레일런",
+    "url": "http://www.thebike.co.kr/race/view.php?r_idx=330",
+    "engine": "custom",
+    "selector": "span.btn-red2",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:50:14.550Z"
+  },
+  {
+    "id": 61,
+    "name": "2026 봄바람 유러닝페스타",
+    "url": "http://urfesta.com/",
+    "engine": "custom",
+    "selector": "a.nav-link",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:50:18.057Z"
+  },
+  {
+    "id": 62,
+    "name": "제2회 한강 벚꽃 마라톤",
+    "url": "http://springrun.kr/",
+    "engine": "custom",
+    "selector": "strong.h-box",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:50:20.737Z"
+  },
+  {
+    "id": 63,
+    "name": "청라 하늘대교마라톤 2026",
+    "url": "http://cnrun.co.kr/",
+    "engine": "custom",
+    "selector": "a.dropdown-toggle",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:50:25.000Z"
+  },
+  {
+    "id": 64,
+    "name": "2026 무주반딧불 하프마라톤",
+    "url": "http://mara1080.com/event/7284aebc-502f-406a-95e5-a43a70893547",
+    "engine": "unknown",
+    "selector": null,
+    "status": "permanent_failure",
+    "last_analyzed": null
+  },
+  {
+    "id": 65,
+    "name": "제14회 김포한강마라톤",
+    "url": "http://gimporun.com/",
+    "engine": "custom",
+    "selector": "a.menu-link",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:50:58.465Z"
+  },
+  {
+    "id": 66,
+    "name": "제20회 정남진장흥 전국마라톤",
+    "url": "http://www.jeongnamjin.net/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:50:59.955Z"
+  },
+  {
+    "id": 67,
+    "name": "제25회 합천벚꽃마라톤",
+    "url": "http://hcmrt.or.kr/",
+    "engine": "custom",
+    "selector": "a.gnb_1da",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:51:02.679Z"
+  },
+  {
+    "id": 68,
+    "name": "2026년 안양천 벚꽃 마라톤",
+    "url": "http://cafe.daum.net/guro-run/LvM7/40",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:51:04.805Z"
+  },
+  {
+    "id": 69,
+    "name": "2026 성북사랑 전국 마라톤",
+    "url": "http://cafe.naver.com/sblovemarathon/?viewType=pc",
+    "engine": "custom",
+    "selector": "span.gm-tcol-t",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:51:07.120Z"
+  },
+  {
+    "id": 70,
+    "name": "제33회 315마라톤",
+    "url": "http://www.masanmarathon.or.kr/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:51:10.187Z"
+  },
+  {
+    "id": 71,
+    "name": "2026 왕인의 봄 영암벚꽃마라톤",
+    "url": "http://yeongammrathon.kr/",
+    "engine": "custom",
+    "selector": "button.btn-dropdown",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:51:12.784Z"
+  },
+  {
+    "id": 72,
+    "name": "2026 THE RACE SEOUL 21K",
+    "url": "http://www.theraceseoul21k.com/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:51:15.532Z"
+  },
+  {
+    "id": 73,
+    "name": "제17회 대한경제마라톤",
+    "url": "http://www.dnewsrun.co.kr/",
+    "engine": "custom",
+    "selector": "a.gnb_1da",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:51:16.693Z"
+  },
+  {
+    "id": 74,
+    "name": "2026 영주소백산마라톤",
+    "url": "http://www.sobaekmarathon.go.kr/",
+    "engine": "custom",
+    "selector": "span.ps-highlight",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:51:19.149Z"
+  },
+  {
+    "id": 75,
+    "name": "제25회 제주 국제울트라마라톤",
+    "url": "http://kumf.kr/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:51:21.310Z"
+  },
+  {
+    "id": 76,
+    "name": "2026 장수트레일레이스 Spring",
+    "url": "http://rocknrun.kr/",
+    "engine": "imweb",
+    "selector": "span.plain_name",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:51:25.695Z"
+  },
+  {
+    "id": 77,
+    "name": "제33회 경주벚꽃마라톤",
+    "url": "http://www.cherrymarathon.co.kr/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:51:27.352Z"
+  },
+  {
+    "id": 78,
+    "name": "국립창원대학교와 MBC경남 제2회 벚꽃마라톤",
+    "url": "http://run.cwnu.ac.kr/",
+    "engine": "unknown",
+    "selector": "span.cb-strong",
+    "status": "analyzed",
+    "last_analyzed": null
+  },
+  {
+    "id": 79,
+    "name": "제13회 GIVE N RACE",
+    "url": "http://www.givenrace.com/give#/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:51:58.010Z"
+  },
+  {
+    "id": 80,
+    "name": "2026 서울봄꽃레이스",
+    "url": "http://xn--js0b99nl8d01ed7b48jylb.kr/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:52:07.066Z"
+  },
+  {
+    "id": 81,
+    "name": "2026 진주남강 마라톤",
+    "url": "http://www.gnmarathon.co.kr/",
+    "engine": "custom",
+    "selector": "a.gnb_1da",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:52:08.798Z"
+  },
+  {
+    "id": 82,
+    "name": "2026 성남마라톤",
+    "url": "http://ktra.kr/",
+    "engine": "imweb",
+    "selector": "span.plain_name",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:52:11.967Z"
+  },
+  {
+    "id": 83,
+    "name": "제12회 나주영산강마라톤",
+    "url": "http://www.najurun.kr/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:52:13.313Z"
+  },
+  {
+    "id": 84,
+    "name": "2026 군산새만금마라톤",
+    "url": "http://www.gunsanmarathon.com/",
+    "engine": "custom",
+    "selector": "span.text",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:52:15.786Z"
+  },
+  {
+    "id": 85,
+    "name": "2026 튼튼이 마라톤",
+    "url": "http://tterun.co.kr/",
+    "engine": "custom",
+    "selector": "a.dp1",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:52:16.913Z"
+  },
+  {
+    "id": 86,
+    "name": "제27회 이천 도자기 마라톤",
+    "url": "https://mara1080.com/event/b2dd5c44-a875-484a-b2b5-38b21977e56b",
+    "engine": "mara1080",
+    "selector": null,
+    "status": "analyzed",
+    "last_analyzed": null
+  },
+  {
+    "id": 87,
+    "name": "대청호 벚꽃길 마라톤",
+    "url": "http://ehompy0669.ehompy.co.kr/main",
+    "engine": "custom",
+    "selector": "a.link_btn",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:52:49.016Z"
+  },
+  {
+    "id": 88,
+    "name": "2026 MBN 선셋마라톤 영종",
+    "url": "http://marathon-mbnyj.com/",
+    "engine": "custom",
+    "selector": "a.text-white",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:52:54.359Z"
+  },
+  {
+    "id": 89,
+    "name": "소외계층돕기 제15회 행복한가게 마라톤",
+    "url": "http://www.kksports.kr/",
+    "engine": "custom",
+    "selector": "a.naviDepth1_join",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:52:56.752Z"
+  },
+  {
+    "id": 90,
+    "name": "제22회 청남대울트라 마라톤",
+    "url": "http://cndu.org/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:52:58.672Z"
+  },
+  {
+    "id": 91,
+    "name": "제22회 창원야철마라톤",
+    "url": "http://www.kcmarathon.co.kr/",
+    "engine": "custom",
+    "selector": "a.gnb_1da",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:53:00.364Z"
+  },
+  {
+    "id": 92,
+    "name": "2026 안양천 벚꽃 마라톤",
+    "url": "http://www.flowerrun.kr/",
+    "engine": "custom",
+    "selector": "a.mobile_nav_btn",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:53:03.582Z"
+  },
+  {
+    "id": 93,
+    "name": "제3회 해평 마라톤",
+    "url": "http://runtoharmony.kr/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:53:05.031Z"
+  },
+  {
+    "id": 94,
+    "name": "제3회 가든파이브 라이프 레이스",
+    "url": "http://www.irunman.kr/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:53:06.265Z"
+  },
+  {
+    "id": 95,
+    "name": "제15회 MBC섬진강꽃길마라톤",
+    "url": "http://mbcrun.com/",
+    "engine": "custom",
+    "selector": "a.sc-bjfHbI",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:53:08.107Z"
+  },
+  {
+    "id": 96,
+    "name": "제15회 양천마라톤",
+    "url": "http://ycrun.com/",
+    "engine": "custom",
+    "selector": "button.btn",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:53:10.856Z"
+  },
+  {
+    "id": 97,
+    "name": "2026 서울클린뷰티런",
+    "url": "http://2026seoulcleanbeautyrun.sixshop.site/",
+    "engine": "custom",
+    "selector": "button.TextButton_button__lydn0",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:53:14.498Z"
+  },
+  {
+    "id": 98,
+    "name": "제11회 서울트레일런",
+    "url": "http://surally2406.webmaker21.kr/competition/outline?ca_id=01&wm_id=19",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:53:15.757Z"
+  },
+  {
+    "id": 99,
+    "name": "제19회 영남일보 국제 하프마라톤",
+    "url": "http://ynmarathon.kr/",
+    "engine": "custom",
+    "selector": "button.btn-dropdown",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:53:17.493Z"
+  },
+  {
+    "id": 100,
+    "name": "제23회 춘천호반마라톤",
+    "url": "http://kw-marathon.com/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:53:19.891Z"
+  },
+  {
+    "id": 101,
+    "name": "제 11회 기적의마라톤",
+    "url": "http://todagmarathon.com/",
+    "engine": "imweb",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:53:22.009Z"
+  },
+  {
+    "id": 102,
+    "name": "제3회 아산신정호 트레일런100k",
+    "url": "http://xn--oi2bn8o9vb5vdh8b21cw84a0mg.kr/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:53:24.710Z"
+  },
+  {
+    "id": 103,
+    "name": "2026 DMZ평화마라톤",
+    "url": "http://dmzmarathon.newstomato.com/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:53:26.737Z"
+  },
+  {
+    "id": 104,
+    "name": "제2회 마포 서윤복 마라톤",
+    "url": "http://sybrun.com/",
+    "engine": "custom",
+    "selector": "button.btn",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:53:29.409Z"
+  },
+  {
+    "id": 105,
+    "name": "2026 THE RACE BUSAN",
+    "url": "http://busan.therace.co.kr/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:53:33.114Z"
+  },
+  {
+    "id": 106,
+    "name": "제2회 무등산 구석구석트레일런",
+    "url": "http://www.cuk-sports.co.kr/apply/mudeugnsan_2026/",
+    "engine": "custom",
+    "selector": "button.acc-header",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:53:34.958Z"
+  },
+  {
+    "id": 107,
+    "name": "제20회 2026 단양팔경마라톤",
+    "url": "http://danyangmarathon.kr/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:53:35.628Z"
+  },
+  {
+    "id": 108,
+    "name": "제23회 호남마라톤",
+    "url": "http://www.xn--q20bn3kn1bd06bl9e.kr/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:53:37.437Z"
+  },
+  {
+    "id": 109,
+    "name": "2026 코리아 k건강마라톤",
+    "url": "http://koreakrun.co.kr/",
+    "engine": "custom",
+    "selector": "span.on1_no",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:53:38.816Z"
+  },
+  {
+    "id": 110,
+    "name": "제24회 울산커플마라톤",
+    "url": "http://run.ksilbo.co.kr/",
+    "engine": "custom",
+    "selector": "span.ma_tit",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:53:40.355Z"
+  },
+  {
+    "id": 111,
+    "name": "제17회 성지순례222KM울트라마라톤",
+    "url": "http://cprun222k.com/",
+    "engine": "custom",
+    "selector": "a.inline-flex",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:53:44.184Z"
+  },
+  {
+    "id": 112,
+    "name": "제8회 오션뷰 기장바다마라톤",
+    "url": "http://www.badarun.co.kr/",
+    "engine": "custom",
+    "selector": "a.gnb_2da",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:53:46.145Z"
+  },
+  {
+    "id": 113,
+    "name": "제30회 삼척 황영조 국제 마라톤",
+    "url": "http://mara1080.com/event/8921cdef-67fc-4e1c-9237-763520b90c80",
+    "engine": "unknown",
+    "selector": null,
+    "status": "permanent_failure",
+    "last_analyzed": null
+  },
+  {
+    "id": 114,
+    "name": "제21회 세종특별자치시 전국복사꽃 마라톤",
+    "url": "http://sejongrun.kr/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:54:18.403Z"
+  },
+  {
+    "id": 115,
+    "name": "제14회 광명육상연맹회장배 건강달리기",
+    "url": "http://gmaf.kr/",
+    "engine": "imweb",
+    "selector": "span.plain_name",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:54:22.268Z"
+  },
+  {
+    "id": 116,
+    "name": "2026 부안해변마라톤",
+    "url": "http://www.buanmarathon.kr/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:54:23.513Z"
+  },
+  {
+    "id": 117,
+    "name": "제20회 반기문마라톤",
+    "url": "http://bankimoonmarathon.kr/marathon/code/8044/",
+    "engine": "custom",
+    "selector": "a.drop-btn",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:54:27.349Z"
+  },
+  {
+    "id": 118,
+    "name": "제24회 통일기원 포항해변마라톤",
+    "url": "http://phrun.co.kr/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:54:28.505Z"
+  },
+  {
+    "id": 119,
+    "name": "제4회 아산 이순신 백의종군길 마라톤",
+    "url": "http://mara1080.com/event/e40f1082-eb59-40b3-9fbe-b05afe6bf741",
+    "engine": "unknown",
+    "selector": null,
+    "status": "permanent_failure",
+    "last_analyzed": null
+  },
+  {
+    "id": 120,
+    "name": "2026 서울하프마라톤",
+    "url": "http://www.seoulhalfmarathon.com/",
+    "engine": "custom",
+    "selector": "a.menu_2_bg",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:55:00.026Z"
+  },
+  {
+    "id": 121,
+    "name": "제21회 보성 녹차 마라톤",
+    "url": "https://mara1080.com/event/6c02d9f8-cbe9-4a7b-ba9d-6e1f93a18b1a",
+    "engine": "mara1080",
+    "selector": null,
+    "status": "analyzed",
+    "last_analyzed": null
+  },
+  {
+    "id": 122,
+    "name": "속리산 문장대Trail running",
+    "url": "http://www.koreatrail.net/home/main.php?link=event&einc=eapp&opp=20250626115011&csno=20201120111538#baseline",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:55:31.067Z"
+  },
+  {
+    "id": 123,
+    "name": "제2회 홍천트레일런",
+    "url": "http://xn--zl2btbt11e53epxifrf.com/",
+    "engine": "imweb",
+    "selector": "a.has_child",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:55:33.598Z"
+  },
+  {
+    "id": 124,
+    "name": "2026 구례 지리산봄길 마라톤",
+    "url": "http://grrun.kr/",
+    "engine": "custom",
+    "selector": "a.sc-bjfHbI",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:55:36.823Z"
+  },
+  {
+    "id": 125,
+    "name": "2026 THE RACE DAEGU 10K",
+    "url": "http://daegu.therace.co.kr/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:55:39.538Z"
+  },
+  {
+    "id": 126,
+    "name": "2026 BUSAN 50K",
+    "url": "http://www.busan-50k.com/",
+    "engine": "imweb",
+    "selector": "a.has_child",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:55:42.743Z"
+  },
+  {
+    "id": 127,
+    "name": "2026 전국의병 마라톤",
+    "url": "http://www.urmarathon.com/",
+    "engine": "custom",
+    "selector": "a.gnb_1da",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:55:44.913Z"
+  },
+  {
+    "id": 128,
+    "name": "제24회 불.수.사.도.북 Trail Run",
+    "url": "http://www.koreatrail.net/home/main.php?link=event&einc=eapp&opp=20250511195054&csno=20170613133750#baseline",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:55:45.710Z"
+  },
+  {
+    "id": 129,
+    "name": "커피 빵빵런 2026",
+    "url": "http://coffeebbangrun.com/",
+    "engine": "imweb",
+    "selector": "span.plain_name",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:55:49.627Z"
+  },
+  {
+    "id": 130,
+    "name": "제19회 대전 한밭울트라마라톤",
+    "url": "http://dhultra.kr/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:55:50.912Z"
+  },
+  {
+    "id": 131,
+    "name": "2026 식품안전 마라톤",
+    "url": "http://mara1080.com/event/29a34ee9-32a9-4a3b-b92f-37b3772cc183",
+    "engine": "unknown",
+    "selector": null,
+    "status": "permanent_failure",
+    "last_analyzed": null
+  },
+  {
+    "id": 132,
+    "name": "2026 무의도구석구석 국제트레일런",
+    "url": "http://cafe.naver.com/matrailrun/?viewType=pc",
+    "engine": "custom",
+    "selector": "span.gm-tcol-t",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:56:19.490Z"
+  },
+  {
+    "id": 133,
+    "name": "2026 가정의달 하하호호마라톤",
+    "url": "http://www.xn--o39a84ke5dgxc710an6as16b.kr/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:56:21.572Z"
+  },
+  {
+    "id": 134,
+    "name": "2026 옥스팜 트레일워커",
+    "url": "http://www.oxfamtrailwalker.or.kr/ko/",
+    "engine": "custom",
+    "selector": "a.nav-item",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:56:33.745Z"
+  },
+  {
+    "id": 135,
+    "name": "소아암환우돕기 제23회 서울시민마라톤",
+    "url": "http://soaam.runningdr.co.kr/",
+    "engine": "custom",
+    "selector": "a.top-menu-head4",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:56:34.874Z"
+  },
+  {
+    "id": 136,
+    "name": "제4회 서울한강울트라마라톤",
+    "url": "http://www.seoul-hangang.kr/",
+    "engine": "custom",
+    "selector": "a.view",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:56:37.393Z"
+  },
+  {
+    "id": 137,
+    "name": "2026 THE RACE DAEJEON 10K",
+    "url": "http://daejeon.therace.co.kr/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:56:40.012Z"
+  },
+  {
+    "id": 138,
+    "name": "제37회 지리산 화대종주",
+    "url": "http://www.koreatrail.net/home/main.php?link=event&einc=eapp&opp=20250519153230&csno=20150930092416#baseline",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:56:40.892Z"
+  },
+  {
+    "id": 139,
+    "name": "제18회 여명국제마라톤",
+    "url": "http://www.dawnmarathon.com/",
+    "engine": "custom",
+    "selector": "a.main-visual-btn",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:56:41.942Z"
+  },
+  {
+    "id": 140,
+    "name": "제31회 바다의 날 마라톤",
+    "url": "http://badamarathon.com/",
+    "engine": "custom",
+    "selector": "a.dropdown-toggle",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:56:46.585Z"
+  },
+  {
+    "id": 141,
+    "name": "제13회 거제100K",
+    "url": "http://geoje100.creatorlink.net/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:56:52.819Z"
+  },
+  {
+    "id": 142,
+    "name": "전마협 창단25주년기념 2026금산월드런마라톤",
+    "url": "http://mara1080.com/event/d9909060-99e2-49ff-9112-0dc6c7c4d1db",
+    "engine": "unknown",
+    "selector": null,
+    "status": "permanent_failure",
+    "last_analyzed": null
+  },
+  {
+    "id": 143,
+    "name": "제9회남한산성TRAILRUNNING",
+    "url": "http://www.koreatrail.net/home/main.php?link=event&einc=eapp&opp=20250911090719&csno=20220731195207#baseline",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:57:23.637Z"
+  },
+  {
+    "id": 144,
+    "name": "2026 THE RACE GWANGJU 10K",
+    "url": "http://gwangju.therace.co.kr/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:57:27.094Z"
+  },
+  {
+    "id": 145,
+    "name": "2026년 독도수호를 위한 동호인마라톤",
+    "url": "http://xn--289a04w1ifu9bvwfi4b78e.com/",
+    "engine": "custom",
+    "selector": "a.gnb_2da",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:57:30.552Z"
+  },
+  {
+    "id": 146,
+    "name": "2026 삼삼트레일런",
+    "url": "http://samsamis.com/",
+    "engine": "imweb",
+    "selector": "span.plain_name",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:57:32.536Z"
+  },
+  {
+    "id": 147,
+    "name": "제5회 무등산무돌길완주대회",
+    "url": "http://www.mudolgil518.or.kr/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:57:33.991Z"
+  },
+  {
+    "id": 148,
+    "name": "2026 백양산숲길건강달리기",
+    "url": "http://www.bsama.co.kr/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:57:35.847Z"
+  },
+  {
+    "id": 149,
+    "name": "2026 제23회 빛고을 울트라마라톤",
+    "url": "http://gj100k.org/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:57:38.144Z"
+  },
+  {
+    "id": 150,
+    "name": "희망드림 제23회 새벽강변 국제마라톤",
+    "url": "http://amarunsb.com/",
+    "engine": "custom",
+    "selector": "a.top-menu-head4",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:57:39.369Z"
+  },
+  {
+    "id": 151,
+    "name": "제11회 김대중 평화 마라톤",
+    "url": "http://kdjrun.kr/",
+    "engine": "custom",
+    "selector": "span.news_number",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:57:41.710Z"
+  },
+  {
+    "id": 152,
+    "name": "제22회 영덕해변전국마라톤",
+    "url": "http://www.runmp.kr/",
+    "engine": "custom",
+    "selector": "span.on1_no",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:57:43.305Z"
+  },
+  {
+    "id": 153,
+    "name": "2026 제10회 포항철강마라톤",
+    "url": "http://phsteelrun.com/",
+    "engine": "custom",
+    "selector": "button.btn-dropdown",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:57:44.666Z"
+  },
+  {
+    "id": 154,
+    "name": "제12회 시각장애인과 함께하는 어울림 마라톤",
+    "url": "http://www.sbsa.or.kr/",
+    "engine": "custom",
+    "selector": "a.MainBlockMenu__BlockMenu-sc-15b8c593-2",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:57:49.101Z"
+  },
+  {
+    "id": 155,
+    "name": "2026 람사르습지 밤섬런",
+    "url": "http://bamseomrun.kr/",
+    "engine": "custom",
+    "selector": "a.dp1",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:57:50.733Z"
+  },
+  {
+    "id": 156,
+    "name": "제25회 충주마라톤",
+    "url": "http://cjapplemarathon.com/index.asp",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:57:53.359Z"
+  },
+  {
+    "id": 157,
+    "name": "소백산 죽령TrailRunnig",
+    "url": "http://www.koreatrail.net/home/main.php?link=event&einc=eapp&opp=20240812092847&csno=20230509115002#baseline",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:57:54.377Z"
+  },
+  {
+    "id": 158,
+    "name": "제10회 노원구청장배 겸 회장배마라톤",
+    "url": "http://www.nowonmarathon.com/",
+    "engine": "custom",
+    "selector": "a.second_a",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:57:56.295Z"
+  },
+  {
+    "id": 159,
+    "name": "제8회안산인왕산북악산TRAILRUN",
+    "url": "http://www.koreatrail.net/home/main.php?link=event&einc=eapp&opp=20250821124548&csno=20220326200847#baseline",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:57:57.210Z"
+  },
+  {
+    "id": 160,
+    "name": "2026 울릉도 국제 트레일러닝",
+    "url": "http://osk.run/",
+    "engine": "imweb",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null
+  },
+  {
+    "id": 161,
+    "name": "2026 대구세계마스터즈육상경기대회",
+    "url": "http://www.wmac2026.com/",
+    "engine": "unknown",
+    "selector": null,
+    "status": "permanent_failure",
+    "last_analyzed": null
+  },
+  {
+    "id": 162,
+    "name": "2026 쿨밸리트레일레이스",
+    "url": "http://rocknrun.kr/",
+    "engine": "imweb",
+    "selector": "span.plain_name",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:58:32.785Z"
+  },
+  {
+    "id": 163,
+    "name": "제38회 지리산화대종주 Trail Run",
+    "url": "http://www.koreatrail.net/home/main.php?link=event&einc=eapp&opp=20250820150217&csno=20191209143330#baseline",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:58:33.784Z"
+  },
+  {
+    "id": 164,
+    "name": "제24회 청광종주TRAILRUNNING",
+    "url": "http://www.koreatrail.net/home/main.php?link=event&einc=eapp&opp=20250626120820&csno=20191016122754#baseline",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:58:34.612Z"
+  },
+  {
+    "id": 165,
+    "name": "제23회 철원DMZ국제평화마라톤",
+    "url": "http://dmzrun.kr/",
+    "engine": "custom",
+    "selector": "a.dropdown-toggle",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:58:38.332Z"
+  },
+  {
+    "id": 166,
+    "name": "제14회설악산공룡능선CLIMBATHON",
+    "url": "http://www.koreatrail.net/home/main.php?link=event&einc=eapp&opp=20250910133652&csno=20191227110239#baseline",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:58:39.267Z"
+  },
+  {
+    "id": 167,
+    "name": "빵트레일런 2026",
+    "url": "http://bbangtrailrun.co.kr/",
+    "engine": "imweb",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:58:41.309Z"
+  },
+  {
+    "id": 168,
+    "name": "2026 청계산.인릉산TrailRunn",
+    "url": "http://www.koreatrail.net/home/main.php?link=event&einc=eapp&opp=20250821130406&csno=20190812093657#baseline",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:58:42.067Z"
+  },
+  {
+    "id": 169,
+    "name": "2026 봉화송이 전국마라톤",
+    "url": "http://bonghwarun.kr/",
+    "engine": "custom",
+    "selector": "button.btn-dropdown",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:58:43.607Z"
+  },
+  {
+    "id": 170,
+    "name": "2026 울진금강송힐링마라톤",
+    "url": "http://www.ujrun.kr/",
+    "engine": "custom",
+    "selector": "span.on1_no",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:58:44.955Z"
+  },
+  {
+    "id": 171,
+    "name": "제24회 청원생명쌀대청호마라톤",
+    "url": "http://race.cjsports.or.kr/",
+    "engine": "custom",
+    "selector": "span.tit",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:58:47.073Z"
+  },
+  {
+    "id": 172,
+    "name": "2026 장수트레일레이스 Fall",
+    "url": "http://rocknrun.kr/",
+    "engine": "imweb",
+    "selector": "span.plain_name",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:58:49.975Z"
+  },
+  {
+    "id": 173,
+    "name": "제 2회 아산이순신 트레일",
+    "url": "http://isunshintrail.com/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:58:51.627Z"
+  },
+  {
+    "id": 174,
+    "name": "제7회 천안삼거리 흥타령울트라마라톤",
+    "url": "http://www.chultra.kr/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:58:54.224Z"
+  },
+  {
+    "id": 175,
+    "name": "제19회 가평자라섬 전국마라톤",
+    "url": "http://gprun.com/",
+    "engine": "custom",
+    "selector": "a.top-menu-head5",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:58:56.151Z"
+  },
+  {
+    "id": 176,
+    "name": "제20회 달서하프마라톤",
+    "url": "http://www.xn--bk1bo0gn4bnwmwqvbue1qa.kr/",
+    "engine": "custom",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:58:57.916Z"
+  },
+  {
+    "id": 177,
+    "name": "제26회 홍성마라톤",
+    "url": "http://amarunhs.com/",
+    "engine": "custom",
+    "selector": "a.top-menu-head4",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:58:58.788Z"
+  },
+  {
+    "id": 178,
+    "name": "2026 jtbc 마라톤",
+    "url": "http://marathon.jtbc.com/",
+    "engine": "imweb",
+    "selector": "",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:59:02.071Z"
+  },
+  {
+    "id": 179,
+    "name": "2026 경포마라톤",
+    "url": "http://www.xn--289av7rnxbd06bmrc.com/",
+    "engine": "custom",
+    "selector": "a.gnb-toggle",
+    "status": "analyzed",
+    "last_analyzed": null,
+    "last_checked": "2026-02-06T19:59:03.250Z"
+  },
+  {
+    "id": 180,
+    "name": "2026 아시아 오픈 마라톤",
+    "url": "http://xn--he5bij42b36d/",
+    "engine": "unknown",
+    "selector": null,
+    "status": "permanent_failure",
+    "last_analyzed": null
+  }
+]

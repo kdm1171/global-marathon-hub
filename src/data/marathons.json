@@ -1,49 +1,1802 @@
 [
   {
     "id": 1,
-    "name": "2026 서울국제마라톤 (동아마라톤)",
-    "date": "2026-03-15",
-    "location": "서울 종로구 세종로 ~ 잠실종합운동장",
-    "distance": "풀코스, 10km",
-    "organizer": "동아일보사",
-    "status": "접수예정",
-    "link": "https://www.seoul-marathon.com/"
+    "name": "2026 전마협 별들의전쟁&꽃들의전쟁 클럽대항",
+    "date": "2/8(일)",
+    "location": "금산인삼엑스포주차장",
+    "organizer": "전국마라톤협회\n\t ☎042-638-1080",
+    "status": "접수중",
+    "link": "http://www.run1080.com/new/mini/index.php?code=1527",
+    "is_official": true
   },
   {
     "id": 2,
-    "name": "제24회 대구국제마라톤대회",
-    "date": "2026-04-05",
-    "location": "대구광역시 일원",
-    "distance": "풀코스, 10km, 5km",
-    "organizer": "대구광역시",
+    "name": "2026 네버스탑: 1,000K 돌파 팀마라톤",
+    "date": "2/2(월)",
+    "location": "전국",
+    "organizer": "주식회사 컴포트\n\t ☎010-6364-4749",
     "status": "접수중",
-    "link": "https://daegumarathon.com/"
+    "link": "http://neverstopofficial.imweb.me/20",
+    "is_official": true
   },
   {
     "id": 3,
-    "name": "2026 경기일보 마라톤 대회",
-    "date": "2026-04-12",
-    "location": "수원종합운동장",
-    "distance": "하프, 10km, 5km",
-    "organizer": "경기일보",
-    "status": "접수중"
+    "name": "희망드림 제23회 동계 국제 마라톤",
+    "date": "2/21(토)",
+    "location": "여의도 한강 물빛광장",
+    "organizer": "(사)한국마라톤연맹\n\t ☎02-2647-4488",
+    "status": "접수중",
+    "link": "http://dkrun.co.kr/",
+    "is_official": true
   },
   {
     "id": 4,
-    "name": "제30회 경주벚꽃마라톤대회",
-    "date": "2026-04-04",
-    "location": "경주시 일원",
-    "distance": "풀코스, 하프, 10km, 5km",
-    "organizer": "경주시",
-    "status": "접수마감"
+    "name": "제3회 산들소리향기마라톤",
+    "date": "2/8(일)",
+    "location": "상암 월드컵공원 평화광장",
+    "organizer": "(사)한국위생물수건\n\t ☎02-2606-8187",
+    "status": "접수중",
+    "link": "http://recyclerun.kr/",
+    "is_official": true
   },
   {
     "id": 5,
-    "name": "2026 제주국제관광마라톤축제",
-    "date": "2026-05-17",
-    "location": "구좌종합운동장",
-    "distance": "풀코스, 하프, 10km",
-    "organizer": "제주특별자치도관광협회",
-    "status": "접수예정"
+    "name": "2026 순천만국가정원 윷놀이런",
+    "date": "2/18(수)",
+    "location": "순천만국가정원 동문",
+    "organizer": "순천만국가정원\n\t ☎070-5088-1180",
+    "status": "접수중",
+    "link": "http://projectruntrip-pre.linkstory.co.kr/",
+    "is_official": true
+  },
+  {
+    "id": 6,
+    "name": "2026전마협 청주 무심천 투데이 마라톤(토)",
+    "date": "2/21(토)",
+    "location": "청주 무심천 롤러스케이트장",
+    "organizer": "전국마라톤협회\n\t ☎042-638-1080",
+    "status": "접수중",
+    "link": "http://www.run1080.com/new/mini/index.php?code=1518",
+    "is_official": true
+  },
+  {
+    "id": 7,
+    "name": "엘리트x마스터즈2026제주MBC국제평화마라톤",
+    "date": "2/22(일)",
+    "location": "한림종합운동장",
+    "organizer": "한국실업육상연맹, 제주MBC\n\t ☎064-748-9021",
+    "status": "접수중",
+    "link": "http://marathon.jejumbc.com/",
+    "is_official": true
+  },
+  {
+    "id": 8,
+    "name": "제7회 휴먼레이스(취소)",
+    "date": "2/21(토)",
+    "location": "잠실한강공원 청소년광장",
+    "organizer": "장애인활동지원협의회\n\t ☎02-3210-1666",
+    "status": "접수중",
+    "link": "http://www.irunman.kr/",
+    "is_official": true
+  },
+  {
+    "id": 9,
+    "name": "2026 청춘릴레이 마라톤",
+    "date": "2/21(토)",
+    "location": "상암월드컵공원 평화광장",
+    "organizer": "(사)재한다문화총연합회\n\t ☎02-2636-7775",
+    "status": "접수중",
+    "link": "http://youngrun.kr/",
+    "is_official": true
+  },
+  {
+    "id": 10,
+    "name": "2026 평창 대관령 알몸 마라톤",
+    "date": "2/14(토)",
+    "location": "평창군 대관령면 눈꽃축제장일원",
+    "organizer": "대관령면체육회\n\t ☎010-2828-9226",
+    "status": "접수중",
+    "link": "http://woozy-lint-81b.notion.site/2c5fc7db1f9580c0b81af74c94794eb6?source=copy_link",
+    "is_official": true
+  },
+  {
+    "id": 11,
+    "name": "2026 고구려 마라톤",
+    "date": "2/22(일)",
+    "location": "뚝섬한강공원 수변무대",
+    "organizer": "러너블\n\t ☎02-2031-1935",
+    "status": "접수중",
+    "link": "http://runable.me/product/3212?comp=3203",
+    "is_official": true
+  },
+  {
+    "id": 12,
+    "name": "제22회 밀양아리랑마라톤",
+    "date": "2/22(일)",
+    "location": "밀양종합운동장",
+    "organizer": "밀양시\n\t ☎055-359-5965",
+    "status": "접수중",
+    "link": "http://www.miryangmarathon.com/",
+    "is_official": true
+  },
+  {
+    "id": 13,
+    "name": "2026 경기수원국제하프마라톤",
+    "date": "2/22(일)",
+    "location": "수원종합운동장",
+    "organizer": "경기신문\n\t ☎02-2208-7243",
+    "status": "접수중",
+    "link": "http://www.ggimarathon.com/",
+    "is_official": true
+  },
+  {
+    "id": 14,
+    "name": "2026 챌린지 레이스",
+    "date": "2/22(일)",
+    "location": "여의도한강공원 물빛무대",
+    "organizer": "로드스포츠\n\t ☎00-1600-3962",
+    "status": "접수중",
+    "link": "http://mcrace.co.kr/",
+    "is_official": true
+  },
+  {
+    "id": 15,
+    "name": "제9회 산불조심 한국서울마라톤",
+    "date": "2/22(일)",
+    "location": "탄천광평 운동장",
+    "organizer": "(사)한국산악마라톤연맹\n\t ☎02-424-2195",
+    "status": "접수중",
+    "link": "http://www.koreatrail.net/home/main.php?link=event&einc=eapp&opp=20251010095641&csno=20190605121808#baseline",
+    "is_official": true
+  },
+  {
+    "id": 16,
+    "name": "2026 보스턴 영웅 마라톤",
+    "date": "2/28(토)",
+    "location": "상암 월드컵공원 평화광장",
+    "organizer": "청운의꿈(주)\n\t ☎02-569-5551",
+    "status": "접수중",
+    "link": "http://bostonrun.kr/",
+    "is_official": true
+  },
+  {
+    "id": 17,
+    "name": "2026전마협 청주 무심천 투데이 마라톤(일)",
+    "date": "2/22(일)",
+    "location": "청주 무심천 롤러스케이트장",
+    "organizer": "전국마라톤협회\n\t ☎042-638-1080",
+    "status": "접수중",
+    "link": "http://www.run1080.com/new/mini/index.php?code=1517",
+    "is_official": true
+  },
+  {
+    "id": 18,
+    "name": "부산 영도트레일런",
+    "date": "2/28(토)",
+    "location": "남항대교 수변야외공연장",
+    "organizer": "명품트레일\n\t ☎010-3526-9120",
+    "status": "접수중",
+    "link": "http://www.mtrailrun.kr/",
+    "is_official": true
+  },
+  {
+    "id": 19,
+    "name": "2026 대구마라톤",
+    "date": "2/22(일)",
+    "location": "대구스타디움",
+    "organizer": "대구시\n\t ☎053-803-6185",
+    "status": "접수중",
+    "link": "http://daegu.go.kr/daegumarathon/",
+    "is_official": true
+  },
+  {
+    "id": 20,
+    "name": "JUST RUN10 전국 10K 러닝 대회",
+    "date": "2/28(토)",
+    "location": "세종마루공원 밑 금강변 일원",
+    "organizer": "(주)러닝브레이커,전국러닝협회\n\t ☎042-710-2058",
+    "status": "접수중",
+    "link": "http://runten.co.kr/",
+    "is_official": true
+  },
+  {
+    "id": 21,
+    "name": "2026 3.1절기념 제27회 건강달리기",
+    "date": "3/1(일)",
+    "location": "춘천 강원일보사 앞 특설행사장",
+    "organizer": "강원일보사\n\t ☎033-264-1365",
+    "status": "접수중",
+    "link": "http://kw-marathon.com/",
+    "is_official": true
+  },
+  {
+    "id": 22,
+    "name": "제13회 안중근 평화 마라톤대회",
+    "date": "3/1(일)",
+    "location": "상암 월드컵공원 평화광장",
+    "organizer": "안중근평화재단청년아카데미\n\t ☎02-336-1588",
+    "status": "접수중",
+    "link": "http://ajgrun.kr/",
+    "is_official": true
+  },
+  {
+    "id": 23,
+    "name": "3.1절 107주년 기념 단축 마라톤",
+    "date": "3/1(일)",
+    "location": "국립인천대학교 정문",
+    "organizer": "기호일보\n\t ☎00-1600-3962",
+    "status": "접수중",
+    "link": "http://31day.co.kr/",
+    "is_official": true
+  },
+  {
+    "id": 24,
+    "name": "2026 환경사랑부산 K-런",
+    "date": "3/1(일)",
+    "location": "부산 삼락생태공원",
+    "organizer": "환경사랑부산K-런조직위\n\t ☎070-7766-1238",
+    "status": "접수중",
+    "link": "http://k-marathon.or.kr/",
+    "is_official": true
+  },
+  {
+    "id": 25,
+    "name": "삼일절 컴포트 선언 러닝",
+    "date": "3/1(일)",
+    "location": "여의도 공원 비행기 전시관",
+    "organizer": "주식회사 컴포트\n\t ☎010-6364-4749",
+    "status": "접수중",
+    "link": "https://ssl.pstatic.net/static/maps/mantle/notice/legal.html",
+    "is_official": true
+  },
+  {
+    "id": 26,
+    "name": "2026 구미 박정희 마라톤",
+    "date": "3/1(일)",
+    "location": "구미시민운동장",
+    "organizer": "구미시체육회\n\t ☎02-2208-7243",
+    "status": "접수중",
+    "link": "http://www.gumimarathon.com/",
+    "is_official": true
+  },
+  {
+    "id": 27,
+    "name": "제61회 광주일보 3.1절 전국마라톤",
+    "date": "3/1(일)",
+    "location": "화순파크골프장",
+    "organizer": "광주일보, 전남문화, 아시아문\n\t ☎061-375-1201",
+    "status": "접수중",
+    "link": "http://31marathon.kr/",
+    "is_official": true
+  },
+  {
+    "id": 28,
+    "name": "2026 머니투데이방송 삼일절 마라톤",
+    "date": "3/1(일)",
+    "location": "뚝섬한강공원 수변무대",
+    "organizer": "(주)머니투데이방송\n\t ☎042-638-1080",
+    "status": "접수중",
+    "link": "http://www.samilrun.com/",
+    "is_official": true
+  },
+  {
+    "id": 29,
+    "name": "제2회 서울경기육상연합 하프 마라톤 대회",
+    "date": "3/7(토)",
+    "location": "광명 안양천 어린이 물놀이장",
+    "organizer": "서울경기육상연합\n\t ☎02-888-8875",
+    "status": "접수중",
+    "link": "http://sgrun.kr/",
+    "is_official": true
+  },
+  {
+    "id": 30,
+    "name": "제21회 부산 비치울트라 마라톤 대회",
+    "date": "3/7(토)",
+    "location": "부산 다대포 해수욕장 주치장",
+    "organizer": "부산 비치 울트라 조직위\n\t ☎010-4568-8946",
+    "status": "접수중",
+    "link": "http://beachultra.kr/",
+    "is_official": true
+  },
+  {
+    "id": 31,
+    "name": "2026 예천군민 마스터즈",
+    "date": "3/8(일)",
+    "location": "예천청소년수련관",
+    "organizer": "예천군청\n\t ☎054-654-3801",
+    "status": "접수중",
+    "link": "http://www.ycg.kr/open.content/ko/administrative/news/notice/?i=175950",
+    "is_official": true
+  },
+  {
+    "id": 32,
+    "name": "2026 MBN 블루레이스 거제",
+    "date": "3/8(일)",
+    "location": "거제 스포츠 파크",
+    "organizer": "MBN, 매일경제\n\t ☎042-638-1080",
+    "status": "접수중",
+    "link": "http://marathon-mbngj.com/",
+    "is_official": true
+  },
+  {
+    "id": 33,
+    "name": "제4회 코리아오픈 레이스",
+    "date": "3/7(토)",
+    "location": "서울 뚝섬한강공원 수변광장",
+    "organizer": "컬처런\n\t ☎02-3210-1666",
+    "status": "접수중",
+    "link": "http://www.koreaopenrace.com/",
+    "is_official": true
+  },
+  {
+    "id": 34,
+    "name": "2026 부천국제10km로드레이스",
+    "date": "3/8(일)",
+    "location": "부천시청",
+    "organizer": "부천시육상연맹\n\t ☎032-613-7524",
+    "status": "접수중",
+    "link": "http://bskrun.co.kr/",
+    "is_official": true
+  },
+  {
+    "id": 35,
+    "name": "2026 금산 인삼 웰빙 마라톤대회",
+    "date": "3/14(토)",
+    "location": "금산세계인삼엑스포주차장",
+    "organizer": "금산군 체육회\n\t ☎042-638-1080",
+    "status": "접수중",
+    "link": "http://mara1080.com/event/db8bfa91-d6de-4591-9f19-8f48da3adc7b",
+    "is_official": true
+  },
+  {
+    "id": 36,
+    "name": "2026 전국민 러닝크루 패밀리 마라톤",
+    "date": "3/8(일)",
+    "location": "상암 월드컵공원 평화광장",
+    "organizer": "런파워(주)\n\t ☎02-3285-5556",
+    "status": "접수중",
+    "link": "http://familyrun.kr/",
+    "is_official": true
+  },
+  {
+    "id": 37,
+    "name": "2026 고양특례시 하프마라톤",
+    "date": "3/8(일)",
+    "location": "고양종합운동장",
+    "organizer": "고양시, jtbc\n\t ☎02-2031-1935",
+    "status": "접수중",
+    "link": "http://www.goyangmarathon.com/",
+    "is_official": true
+  },
+  {
+    "id": 38,
+    "name": "제16회 여의도 벚꽃 마라톤",
+    "date": "3/8(일)",
+    "location": "여의도 물빛무대 앞 광장",
+    "organizer": "한국마라톤TV\n\t ☎00-1644-4219",
+    "status": "접수중",
+    "link": "http://xn--js0bk9fwvdgzcd5e88r2kcx06a.kr/",
+    "is_official": true
+  },
+  {
+    "id": 39,
+    "name": "2026 성주참외 전국마라톤",
+    "date": "3/8(일)",
+    "location": "성주별고을운동장",
+    "organizer": "성주군체육회\n\t ☎054-931-1414",
+    "status": "접수중",
+    "link": "http://sjmelon.kr/",
+    "is_official": true
+  },
+  {
+    "id": 40,
+    "name": "제20회 창녕부곡 온천마라톤",
+    "date": "3/14(토)",
+    "location": "창녕스포츠파크5구장",
+    "organizer": "(주)경남신문사\n\t ☎055-210-6104",
+    "status": "접수중",
+    "link": "http://www.cngmarathon.co.kr/",
+    "is_official": true
+  },
+  {
+    "id": 41,
+    "name": "2026 입춘대길 제1회 춘천 소양강마라톤",
+    "date": "3/21(토)",
+    "location": "춘천 소양강댐 하류주차장",
+    "organizer": "강원도민일보\n\t ☎010-6328-4600",
+    "status": "접수중",
+    "link": "http://www.ccpmarathon.kr/spring/index.php",
+    "is_official": true
+  },
+  {
+    "id": 42,
+    "name": "2026 지리산봄꽃레이스",
+    "date": "3/21(토)",
+    "location": "구례 토지면 일대",
+    "organizer": "지리산씨협동조합\n\t ☎070-8880-0352",
+    "status": "접수중",
+    "link": "http://jirisanrace.com/",
+    "is_official": true
+  },
+  {
+    "id": 43,
+    "name": "2026 JUST RUN10 청주",
+    "date": "3/21(토)",
+    "location": "무심천체육공원",
+    "organizer": "(주)러닝브레이커,전국러닝협회\n\t ☎042-710-2058",
+    "status": "접수중",
+    "link": "http://runten.co.kr/",
+    "is_official": true
+  },
+  {
+    "id": 44,
+    "name": "2026 서울마라톤",
+    "date": "3/15(일)",
+    "location": "광화문광장",
+    "organizer": "동아일보,서울시\n\t ☎02-361-1410",
+    "status": "접수중",
+    "link": "http://seoul-marathon.com/",
+    "is_official": true
+  },
+  {
+    "id": 45,
+    "name": "2026 남해트레일레이스",
+    "date": "3/21(토)",
+    "location": "남해공설운동장",
+    "organizer": "남해군 체육회\n\t ☎063-352-2025",
+    "status": "접수중",
+    "link": "http://rocknrun.kr/",
+    "is_official": true
+  },
+  {
+    "id": 46,
+    "name": "2026 제6회 버킷런",
+    "date": "3/21(토)",
+    "location": "잠실 한강공원모래사장",
+    "organizer": "런앤런\n\t ☎02-2632-0912",
+    "status": "접수중",
+    "link": "http://www.bucketrun.co.kr/",
+    "is_official": true
+  },
+  {
+    "id": 47,
+    "name": "2026 내포마라톤",
+    "date": "3/21(토)",
+    "location": "내포신도시 일원 / 홍성KBS",
+    "organizer": "충청투데이, 충청남도육상경기\n\t ☎042-380-7211",
+    "status": "접수중",
+    "link": "http://www.nprace.co.kr/",
+    "is_official": true
+  },
+  {
+    "id": 48,
+    "name": "제24회 성우하이텍배 KNN환경마라톤",
+    "date": "3/22(일)",
+    "location": "BEXCO제1전시장  3홀",
+    "organizer": "성우하이텍, KNN\n\t ☎00-1522-4897",
+    "status": "접수중",
+    "link": "http://marathon.knn.co.kr/",
+    "is_official": true
+  },
+  {
+    "id": 49,
+    "name": "제3회 불패 마라톤",
+    "date": "3/22(일)",
+    "location": "여의도공원 문화의 마당",
+    "organizer": "(사)한국생활체육연맹\n\t ☎02-569-5551",
+    "status": "접수중",
+    "link": "http://bulpaerun.com/",
+    "is_official": true
+  },
+  {
+    "id": 50,
+    "name": "2026 정읍동학마라톤",
+    "date": "3/22(일)",
+    "location": "정읍 체육트레이닝센터(운동장)",
+    "organizer": "정읍시체육회/정읍시육상연맹\n\t ☎063-535-0495",
+    "status": "접수중",
+    "link": "http://www.jdmarathon.com/",
+    "is_official": true
+  },
+  {
+    "id": 51,
+    "name": "제2회 의성마늘마라톤",
+    "date": "3/28(토)",
+    "location": "의성종합체육관",
+    "organizer": "의성군\n\t ☎010-2805-9016",
+    "status": "접수중",
+    "link": "http://uiseongrun.kr/",
+    "is_official": true
+  },
+  {
+    "id": 52,
+    "name": "2026 여수 영취산 진달래 트레일레이스",
+    "date": "3/28(토)",
+    "location": "흥국사 진달래축제 특설무대",
+    "organizer": "(사)여수영취산진달래축제보존회\n\t ☎063-352-2025",
+    "status": "접수중",
+    "link": "http://rocknrun.kr/",
+    "is_official": true
+  },
+  {
+    "id": 53,
+    "name": "2026 금강울트라마라톤",
+    "date": "3/28(토)",
+    "location": "금강보행교 남단광장(세종시청)",
+    "organizer": "금강울트라마라톤조직위원회\n\t ☎042-544-3809",
+    "status": "접수중",
+    "link": "http://dtrail.co.kr/45",
+    "is_official": true
+  },
+  {
+    "id": 54,
+    "name": "2026 서울 K-마라톤",
+    "date": "3/22(일)",
+    "location": "광화문광장",
+    "organizer": "K마라톤 조직위\n\t ☎02-2135-1232",
+    "status": "접수중",
+    "link": "http://seoulmarathon.org/main.php",
+    "is_official": true
+  },
+  {
+    "id": 55,
+    "name": "제26회 인천국제하프마라톤",
+    "date": "3/22(일)",
+    "location": "인천문학경기장",
+    "organizer": "인천일보, (사)인천마라톤조직\n\t ☎00-1866-1718",
+    "status": "접수중",
+    "link": "http://www.incheonmarathon.co.kr/",
+    "is_official": true
+  },
+  {
+    "id": 56,
+    "name": "제2회 영광 광풍 마라톤",
+    "date": "3/22(일)",
+    "location": "영광군 영광스포티움",
+    "organizer": "영광군민의날 추진위원회\n\t ☎042-638-1080",
+    "status": "접수중",
+    "link": "http://yeonggwang.run1080.com/",
+    "is_official": true
+  },
+  {
+    "id": 57,
+    "name": "제23회 태화강 마라톤",
+    "date": "3/28(토)",
+    "location": "태화강 국가정원 야외공원",
+    "organizer": "울산매일신문사\n\t ☎052-271-8701",
+    "status": "접수중",
+    "link": "http://www.ulsanmaeilmara.com/html/00_main/main.php",
+    "is_official": true
+  },
+  {
+    "id": 58,
+    "name": "제42회 코오롱구간마라톤대회",
+    "date": "3/28(토)",
+    "location": "경주시내 공인 42.195km",
+    "organizer": "대한육상연맹kbs조선일보코오롱\n\t ☎02-785-0582",
+    "status": "접수중",
+    "link": "http://marathon.co.kr/marathon.asp",
+    "is_official": true
+  },
+  {
+    "id": 59,
+    "name": "2026 산불조심 한국남산우정마라톤",
+    "date": "3/22(일)",
+    "location": "남산 동국대 정문",
+    "organizer": "(사)한국산악마라톤연맹\n\t ☎02-424-2195",
+    "status": "접수중",
+    "link": "http://www.koreatrail.net/home/main.php?link=event&einc=eapp&opp=20250511200816&csno=20220129141659#baseline",
+    "is_official": true
+  },
+  {
+    "id": 60,
+    "name": "2026 제3회 구리시 걷기&트레일런",
+    "date": "3/28(토)",
+    "location": "구리시청 광장",
+    "organizer": "(재)한국건강걷기연합회\n\t ☎032-322-3379",
+    "status": "접수중",
+    "link": "http://www.thebike.co.kr/race/view.php?r_idx=330",
+    "is_official": true
+  },
+  {
+    "id": 61,
+    "name": "2026 봄바람 유러닝페스타",
+    "date": "3/28(토)",
+    "location": "경기도 남양주시 도농체육공원",
+    "organizer": "유러닝페스타 운영위원회\n\t ☎010-8017-1833",
+    "status": "접수중",
+    "link": "http://urfesta.com/",
+    "is_official": true
+  },
+  {
+    "id": 62,
+    "name": "제2회 한강 벚꽃 마라톤",
+    "date": "3/29(일)",
+    "location": "상암 월드컵공원 평화광장",
+    "organizer": "(사)중소자영업총연합회\n\t ☎02-888-8805",
+    "status": "접수중",
+    "link": "http://springrun.kr/",
+    "is_official": true
+  },
+  {
+    "id": 63,
+    "name": "청라 하늘대교마라톤 2026",
+    "date": "3/29(일)",
+    "location": "인천로봇랜드인근",
+    "organizer": "서울신문\n\t ☎00-0000-0000",
+    "status": "접수중",
+    "link": "http://cnrun.co.kr/",
+    "is_official": true
+  },
+  {
+    "id": 64,
+    "name": "2026 무주반딧불 하프마라톤",
+    "date": "3/29(일)",
+    "location": "무주 등나무운동장",
+    "organizer": "무주군체육회\n\t ☎042-638-1080",
+    "status": "접수중",
+    "link": "http://mara1080.com/event/7284aebc-502f-406a-95e5-a43a70893547",
+    "is_official": true
+  },
+  {
+    "id": 65,
+    "name": "제14회 김포한강마라톤",
+    "date": "3/29(일)",
+    "location": "김포종합운동장",
+    "organizer": "김포시체육회, 김포시육상연맹\n\t ☎00-1866-1718",
+    "status": "접수중",
+    "link": "http://gimporun.com/",
+    "is_official": true
+  },
+  {
+    "id": 66,
+    "name": "제20회 정남진장흥 전국마라톤",
+    "date": "3/29(일)",
+    "location": "전남 장흥군 탐진강변 일원",
+    "organizer": "장흥군 육상연맹\n\t ☎010-3378-6337",
+    "status": "접수중",
+    "link": "http://www.jeongnamjin.net/",
+    "is_official": true
+  },
+  {
+    "id": 67,
+    "name": "제25회 합천벚꽃마라톤",
+    "date": "3/29(일)",
+    "location": "합천공설운동장 및 백리벚꽃길",
+    "organizer": "합천군\n\t ☎055-931-9625",
+    "status": "접수중",
+    "link": "http://hcmrt.or.kr/",
+    "is_official": true
+  },
+  {
+    "id": 68,
+    "name": "2026년 안양천 벚꽃 마라톤",
+    "date": "3/29(일)",
+    "location": "구일역 하부 인라인스케이트장",
+    "organizer": "구로구육상연맹\n\t ☎010-5470-2442",
+    "status": "접수중",
+    "link": "http://cafe.daum.net/guro-run/LvM7/40",
+    "is_official": true
+  },
+  {
+    "id": 69,
+    "name": "2026 성북사랑 전국 마라톤",
+    "date": "3/29(일)",
+    "location": "중랑천 체육공원(석계역 앞)",
+    "organizer": "성북구육상연맹\n\t ☎070-7719-5788",
+    "status": "접수중",
+    "link": "http://cafe.naver.com/sblovemarathon/?viewType=pc",
+    "is_official": true
+  },
+  {
+    "id": 70,
+    "name": "제33회 315마라톤",
+    "date": "3/29(일)",
+    "location": "3.15해양누리공원",
+    "organizer": "315의거기념사업회\n\t ☎070-7703-3150",
+    "status": "접수중",
+    "link": "http://www.masanmarathon.or.kr/",
+    "is_official": true
+  },
+  {
+    "id": 71,
+    "name": "2026 왕인의 봄 영암벚꽃마라톤",
+    "date": "4/4(토)",
+    "location": "왕인박사유적지 일원",
+    "organizer": "영암군, 영암군체육회\n\t ☎00-1600-3949",
+    "status": "접수중",
+    "link": "http://yeongammrathon.kr/",
+    "is_official": true
+  },
+  {
+    "id": 72,
+    "name": "2026 THE RACE SEOUL 21K",
+    "date": "4/5(일)",
+    "location": "광화문광장(예정)",
+    "organizer": "헤럴드경제\n\t ☎070-7727-1755",
+    "status": "접수중",
+    "link": "http://www.theraceseoul21k.com/",
+    "is_official": true
+  },
+  {
+    "id": 73,
+    "name": "제17회 대한경제마라톤",
+    "date": "4/4(토)",
+    "location": "상암월드컵공원 평화의광장",
+    "organizer": "대한경제신문사\n\t ☎02-3485-8447",
+    "status": "접수중",
+    "link": "http://www.dnewsrun.co.kr/",
+    "is_official": true
+  },
+  {
+    "id": 74,
+    "name": "2026 영주소백산마라톤",
+    "date": "4/5(일)",
+    "location": "영주시민운동장",
+    "organizer": "영주시, 매일신문사\n\t ☎02-2208-7243",
+    "status": "접수중",
+    "link": "http://www.sobaekmarathon.go.kr/",
+    "is_official": true
+  },
+  {
+    "id": 75,
+    "name": "제25회 제주 국제울트라마라톤",
+    "date": "4/4(토)",
+    "location": "제주 해안도로 일주200km",
+    "organizer": "(사)대한울트라마라톤연맹\n\t ☎010-8150-9361",
+    "status": "접수중",
+    "link": "http://kumf.kr/",
+    "is_official": true
+  },
+  {
+    "id": 76,
+    "name": "2026 장수트레일레이스 Spring",
+    "date": "4/3(금)",
+    "location": "장수종합경기장",
+    "organizer": "락앤런\n\t ☎063-353-2025",
+    "status": "접수중",
+    "link": "http://rocknrun.kr/",
+    "is_official": true
+  },
+  {
+    "id": 77,
+    "name": "제33회 경주벚꽃마라톤",
+    "date": "4/4(토)",
+    "location": "보덕동 행정복지센터 옆 헬기장",
+    "organizer": "경주시\n\t ☎070-7725-6258",
+    "status": "접수중",
+    "link": "http://www.cherrymarathon.co.kr/",
+    "is_official": true
+  },
+  {
+    "id": 78,
+    "name": "국립창원대학교와 MBC경남 제2회 벚꽃마라톤",
+    "date": "4/5(일)",
+    "location": "국립창원대학교 일원",
+    "organizer": "국립창원대학교, MBC경남, 더뉴\n\t ☎055-213-2674",
+    "status": "접수중",
+    "link": "http://run.cwnu.ac.kr/",
+    "is_official": true
+  },
+  {
+    "id": 79,
+    "name": "제13회 GIVE N RACE",
+    "date": "4/5(일)",
+    "location": "부산 벡스코 야외광장",
+    "organizer": "Mercedes-Benz\n\t ☎00-1551-4576",
+    "status": "접수중",
+    "link": "http://www.givenrace.com/give#/",
+    "is_official": true
+  },
+  {
+    "id": 80,
+    "name": "2026 서울봄꽃레이스",
+    "date": "4/5(일)",
+    "location": "신정교하부육상트랙구장",
+    "organizer": "(사)대한생활체육마라톤협회\n\t ☎00-1644-4219",
+    "status": "접수중",
+    "link": "http://xn--js0b99nl8d01ed7b48jylb.kr/",
+    "is_official": true
+  },
+  {
+    "id": 81,
+    "name": "2026 진주남강 마라톤",
+    "date": "4/5(일)",
+    "location": "공군교육사령부 및 남강둔치 일원",
+    "organizer": "진주남강마라톤대회 사무국\n\t ☎055-751-1085",
+    "status": "접수중",
+    "link": "http://www.gnmarathon.co.kr/",
+    "is_official": true
+  },
+  {
+    "id": 82,
+    "name": "2026 성남마라톤",
+    "date": "4/11(토)",
+    "location": "성남 탄천종합운동장",
+    "organizer": "(사)대한트레일런협회\n\t ☎031-747-8886",
+    "status": "접수중",
+    "link": "http://ktra.kr/",
+    "is_official": true
+  },
+  {
+    "id": 83,
+    "name": "제12회 나주영산강마라톤",
+    "date": "4/5(일)",
+    "location": "나주종합스포츠파크",
+    "organizer": "뉴시스광주전남본부,나주마라톤\n\t ☎062-385-4601",
+    "status": "접수중",
+    "link": "http://www.najurun.kr/",
+    "is_official": true
+  },
+  {
+    "id": 84,
+    "name": "2026 군산새만금마라톤",
+    "date": "4/5(일)",
+    "location": "군산월명종합경기장",
+    "organizer": "군산시, 대한육상연맹\n\t ☎063-452-9425",
+    "status": "접수중",
+    "link": "http://www.gunsanmarathon.com/",
+    "is_official": true
+  },
+  {
+    "id": 85,
+    "name": "2026 튼튼이 마라톤",
+    "date": "4/5(일)",
+    "location": "상암동 평화의공원평화광장",
+    "organizer": "사)대한구강보건협회,초록우산\n\t ☎02-2632-0912",
+    "status": "접수중",
+    "link": "http://tterun.co.kr/",
+    "is_official": true
+  },
+  {
+    "id": 86,
+    "name": "제27회 이천 도자기 마라톤",
+    "date": "4/5(일)",
+    "location": "이천종합운동장",
+    "organizer": "이천시체육회\n\t ☎042-638-1080",
+    "status": "접수마감",
+    "link": "https://mara1080.com/event/b2dd5c44-a875-484a-b2b5-38b21977e56b",
+    "is_official": true
+  },
+  {
+    "id": 87,
+    "name": "대청호 벚꽃길 마라톤",
+    "date": "4/11(토)",
+    "location": "동구 신상동282번지(벚꽃한터",
+    "organizer": "(주)충청투데이\n\t ☎042-380-7233",
+    "status": "접수중",
+    "link": "http://ehompy0669.ehompy.co.kr/main",
+    "is_official": true
+  },
+  {
+    "id": 88,
+    "name": "2026 MBN 선셋마라톤 영종",
+    "date": "4/11(토)",
+    "location": "영종 씨사이드 파크",
+    "organizer": "MBN, 매일경제\n\t ☎02-6225-3808",
+    "status": "접수중",
+    "link": "http://marathon-mbnyj.com/",
+    "is_official": true
+  },
+  {
+    "id": 89,
+    "name": "소외계층돕기 제15회 행복한가게 마라톤",
+    "date": "4/11(토)",
+    "location": "상암 월드컵공원 평화광장",
+    "organizer": "(사)행복한가게\n\t ☎02-888-8875",
+    "status": "접수중",
+    "link": "http://www.kksports.kr/",
+    "is_official": true
+  },
+  {
+    "id": 90,
+    "name": "제22회 청남대울트라 마라톤",
+    "date": "4/11(토)",
+    "location": "청남대",
+    "organizer": "청남대울트라마라톤조직위\n\t ☎010-2402-3604",
+    "status": "접수중",
+    "link": "http://cndu.org/",
+    "is_official": true
+  },
+  {
+    "id": 91,
+    "name": "제22회 창원야철마라톤",
+    "date": "4/12(일)",
+    "location": "창원스포츠파크 보조경기장",
+    "organizer": "경남신문\n\t ☎055-210-6103",
+    "status": "접수중",
+    "link": "http://www.kcmarathon.co.kr/",
+    "is_official": true
+  },
+  {
+    "id": 92,
+    "name": "2026 안양천 벚꽃 마라톤",
+    "date": "4/12(일)",
+    "location": "신정교 하부 영롱이 억새구장",
+    "organizer": "(사)대한생활체육연맹\n\t ☎02-2636-7775",
+    "status": "접수중",
+    "link": "http://www.flowerrun.kr/",
+    "is_official": true
+  },
+  {
+    "id": 93,
+    "name": "제3회 해평 마라톤",
+    "date": "4/12(일)",
+    "location": "전북특별자치도 남원시",
+    "organizer": "사단법인 상생과평화\n\t ☎02-741-4094",
+    "status": "접수중",
+    "link": "http://runtoharmony.kr/",
+    "is_official": true
+  },
+  {
+    "id": 94,
+    "name": "제3회 가든파이브 라이프 레이스",
+    "date": "4/12(일)",
+    "location": "서울 가든파이브라이프 중앙광장",
+    "organizer": "(주)스포테인\n\t ☎02-3210-1666",
+    "status": "접수중",
+    "link": "http://www.irunman.kr/",
+    "is_official": true
+  },
+  {
+    "id": 95,
+    "name": "제15회 MBC섬진강꽃길마라톤",
+    "date": "4/12(일)",
+    "location": "광양시 다압면 섬진강둔치",
+    "organizer": "여수MBC, MBC경남\n\t ☎061-921-5500",
+    "status": "접수중",
+    "link": "http://mbcrun.com/",
+    "is_official": true
+  },
+  {
+    "id": 96,
+    "name": "제15회 양천마라톤",
+    "date": "4/11(토)",
+    "location": "(목동) 안양천 해마루축구장",
+    "organizer": "양천구\n\t ☎02-2647-4488",
+    "status": "접수중",
+    "link": "http://ycrun.com/",
+    "is_official": true
+  },
+  {
+    "id": 97,
+    "name": "2026 서울클린뷰티런",
+    "date": "4/18(토)",
+    "location": "여의도공원 문화의마당",
+    "organizer": "서울클린뷰티런 운영사무국\n\t ☎070-8098-1833",
+    "status": "접수중",
+    "link": "http://2026seoulcleanbeautyrun.sixshop.site/",
+    "is_official": true
+  },
+  {
+    "id": 98,
+    "name": "제11회 서울트레일런",
+    "date": "4/17(금)",
+    "location": "시청 덕수궁돌담길",
+    "organizer": "서울울트라랠리\n\t ☎02-776-4288",
+    "status": "접수중",
+    "link": "http://surally2406.webmaker21.kr/competition/outline?ca_id=01&wm_id=19",
+    "is_official": true
+  },
+  {
+    "id": 99,
+    "name": "제19회 영남일보 국제 하프마라톤",
+    "date": "4/12(일)",
+    "location": "대구스타디움",
+    "organizer": "영남일보, 대일기획\n\t ☎00-1600-3949",
+    "status": "접수중",
+    "link": "http://ynmarathon.kr/",
+    "is_official": true
+  },
+  {
+    "id": 100,
+    "name": "제23회 춘천호반마라톤",
+    "date": "4/18(토)",
+    "location": "춘천 송암스포츠타운 종합경기장",
+    "organizer": "강원일보사\n\t ☎033-264-1365",
+    "status": "접수중",
+    "link": "http://kw-marathon.com/",
+    "is_official": true
+  },
+  {
+    "id": 101,
+    "name": "제 11회 기적의마라톤",
+    "date": "4/19(일)",
+    "location": "DCC 앞 갑천변",
+    "organizer": "사단법인 토닥토닥\n\t ☎042-471-0419",
+    "status": "접수중",
+    "link": "http://todagmarathon.com/",
+    "is_official": true
+  },
+  {
+    "id": 102,
+    "name": "제3회 아산신정호 트레일런100k",
+    "date": "4/18(토)",
+    "location": "아산 신정호 국민관광단지",
+    "organizer": "대한울트라마라톤 충남지맹\n\t ☎010-2412-5294",
+    "status": "접수중",
+    "link": "http://xn--oi2bn8o9vb5vdh8b21cw84a0mg.kr/",
+    "is_official": true
+  },
+  {
+    "id": 103,
+    "name": "2026 DMZ평화마라톤",
+    "date": "4/19(일)",
+    "location": "임진각 평화누리 공연장",
+    "organizer": "뉴스토마토\n\t ☎02-338-0344",
+    "status": "접수중",
+    "link": "http://dmzmarathon.newstomato.com/",
+    "is_official": true
+  },
+  {
+    "id": 104,
+    "name": "제2회 마포 서윤복 마라톤",
+    "date": "4/19(일)",
+    "location": "상암동 월드컵공원 평화광장",
+    "organizer": "마포구체육회, 숭문고총동문회\n\t ☎02-2647-4488",
+    "status": "접수중",
+    "link": "http://sybrun.com/",
+    "is_official": true
+  },
+  {
+    "id": 105,
+    "name": "2026 THE RACE BUSAN",
+    "date": "4/19(일)",
+    "location": "부산항북항 친수공원(예정)",
+    "organizer": "헤럴드경제\n\t ☎070-7727-1755",
+    "status": "접수중",
+    "link": "http://busan.therace.co.kr/",
+    "is_official": true
+  },
+  {
+    "id": 106,
+    "name": "제2회 무등산 구석구석트레일런",
+    "date": "4/19(일)",
+    "location": "조선대학교",
+    "organizer": "CUK COMPANY/서울신문\n\t ☎00-1899-8610",
+    "status": "접수중",
+    "link": "http://www.cuk-sports.co.kr/apply/mudeugnsan_2026/",
+    "is_official": true
+  },
+  {
+    "id": 107,
+    "name": "제20회 2026 단양팔경마라톤",
+    "date": "4/19(일)",
+    "location": "단양생태체육공원",
+    "organizer": "단양군육상연맹\n\t ☎00-1600-3949",
+    "status": "접수중",
+    "link": "http://danyangmarathon.kr/",
+    "is_official": true
+  },
+  {
+    "id": 108,
+    "name": "제23회 호남마라톤",
+    "date": "4/19(일)",
+    "location": "승촌보 영산강문화관",
+    "organizer": "전남일보사\n\t ☎061-375-1201",
+    "status": "접수중",
+    "link": "http://www.xn--q20bn3kn1bd06bl9e.kr/",
+    "is_official": true
+  },
+  {
+    "id": 109,
+    "name": "2026 코리아 k건강마라톤",
+    "date": "4/19(일)",
+    "location": "송파구여성축구장",
+    "organizer": "(사)대한문화역사탐구연합회\n\t ☎02-408-9470",
+    "status": "접수중",
+    "link": "http://koreakrun.co.kr/",
+    "is_official": true
+  },
+  {
+    "id": 110,
+    "name": "제24회 울산커플마라톤",
+    "date": "4/19(일)",
+    "location": "울산대공원 남문광장",
+    "organizer": "경상일보\n\t ☎052-220-0613",
+    "status": "접수중",
+    "link": "http://run.ksilbo.co.kr/",
+    "is_official": true
+  },
+  {
+    "id": 111,
+    "name": "제17회 성지순례222KM울트라마라톤",
+    "date": "4/24(금)",
+    "location": "명동대성당",
+    "organizer": "가톨릭마라톤동호회\n\t ☎010-6263-9357",
+    "status": "접수중",
+    "link": "http://cprun222k.com/",
+    "is_official": true
+  },
+  {
+    "id": 112,
+    "name": "제8회 오션뷰 기장바다마라톤",
+    "date": "4/19(일)",
+    "location": "오시리아 동부산관광9로",
+    "organizer": "기장바다마라톤조직위\n\t ☎051-723-6686",
+    "status": "접수중",
+    "link": "http://www.badarun.co.kr/",
+    "is_official": true
+  },
+  {
+    "id": 113,
+    "name": "제30회 삼척 황영조 국제 마라톤",
+    "date": "4/25(토)",
+    "location": "삼척엑스포광장",
+    "organizer": "강원일\n\t ☎042-638-1080",
+    "status": "접수중",
+    "link": "http://mara1080.com/event/8921cdef-67fc-4e1c-9237-763520b90c80",
+    "is_official": true
+  },
+  {
+    "id": 114,
+    "name": "제21회 세종특별자치시 전국복사꽃 마라톤",
+    "date": "4/19(일)",
+    "location": "세종시민운동장",
+    "organizer": "세종특별자치시육상연맹\n\t ☎041-862-8601",
+    "status": "접수중",
+    "link": "http://sejongrun.kr/",
+    "is_official": true
+  },
+  {
+    "id": 115,
+    "name": "제14회 광명육상연맹회장배 건강달리기",
+    "date": "4/26(일)",
+    "location": "광명 찬빛광장(안양천)",
+    "organizer": "광명시육상연맹\n\t ☎010-2234-2248",
+    "status": "접수중",
+    "link": "http://gmaf.kr/",
+    "is_official": true
+  },
+  {
+    "id": 116,
+    "name": "2026 부안해변마라톤",
+    "date": "4/19(일)",
+    "location": "부안군 변산해수욕장",
+    "organizer": "부안군육상연맹\n\t ☎010-4700-3801",
+    "status": "접수중",
+    "link": "http://www.buanmarathon.kr/",
+    "is_official": true
+  },
+  {
+    "id": 117,
+    "name": "제20회 반기문마라톤",
+    "date": "4/26(일)",
+    "location": "음성종합운동장",
+    "organizer": "음성군체육회, 런코리아\n\t ☎00-1566-1936",
+    "status": "접수중",
+    "link": "http://bankimoonmarathon.kr/marathon/code/8044/",
+    "is_official": true
+  },
+  {
+    "id": 118,
+    "name": "제24회 통일기원 포항해변마라톤",
+    "date": "4/26(일)",
+    "location": "포항종합운동장",
+    "organizer": "포항시육상연맹\n\t ☎054-241-0855",
+    "status": "접수중",
+    "link": "http://phrun.co.kr/",
+    "is_official": true
+  },
+  {
+    "id": 119,
+    "name": "제4회 아산 이순신 백의종군길 마라톤",
+    "date": "4/26(일)",
+    "location": "아산 현충사 앞 은행나무길",
+    "organizer": "아산시육상연맹\n\t ☎042-638-1080",
+    "status": "접수중",
+    "link": "http://mara1080.com/event/e40f1082-eb59-40b3-9fbe-b05afe6bf741",
+    "is_official": true
+  },
+  {
+    "id": 120,
+    "name": "2026 서울하프마라톤",
+    "date": "4/26(일)",
+    "location": "광화문광장",
+    "organizer": "조선일보,서울시\n\t ☎02-724-6333",
+    "status": "접수중",
+    "link": "http://www.seoulhalfmarathon.com/",
+    "is_official": true
+  },
+  {
+    "id": 121,
+    "name": "제21회 보성 녹차 마라톤",
+    "date": "5/2(토)",
+    "location": "보성공설운동장",
+    "organizer": "보성군체육회\n\t ☎042-638-1080",
+    "status": "접수중",
+    "link": "https://mara1080.com/event/6c02d9f8-cbe9-4a7b-ba9d-6e1f93a18b1a",
+    "is_official": true
+  },
+  {
+    "id": 122,
+    "name": "속리산 문장대Trail running",
+    "date": "4/26(일)",
+    "location": "세조길제2주차징",
+    "organizer": "(사)한국산악마라톤연맹\n\t ☎02-424-2195",
+    "status": "접수중",
+    "link": "http://www.koreatrail.net/home/main.php?link=event&einc=eapp&opp=20250626115011&csno=20201120111538#baseline",
+    "is_official": true
+  },
+  {
+    "id": 123,
+    "name": "제2회 홍천트레일런",
+    "date": "4/26(일)",
+    "location": "홍천읍생활체육공원",
+    "organizer": "홍천군육상연맹\n\t ☎010-8031-3322",
+    "status": "접수중",
+    "link": "http://xn--zl2btbt11e53epxifrf.com/",
+    "is_official": true
+  },
+  {
+    "id": 124,
+    "name": "2026 구례 지리산봄길 마라톤",
+    "date": "5/2(토)",
+    "location": "구례공설운동장",
+    "organizer": "오마이뉴스광주전라본부\n\t ☎061-921-6600",
+    "status": "접수중",
+    "link": "http://grrun.kr/",
+    "is_official": true
+  },
+  {
+    "id": 125,
+    "name": "2026 THE RACE DAEGU 10K",
+    "date": "5/3(일)",
+    "location": "대구 스타디움 광장 (예정)",
+    "organizer": "헤럴드경제\n\t ☎070-7727-1755",
+    "status": "접수중",
+    "link": "http://daegu.therace.co.kr/",
+    "is_official": true
+  },
+  {
+    "id": 126,
+    "name": "2026 BUSAN 50K",
+    "date": "5/9(토)",
+    "location": "신라대학교 대운동장",
+    "organizer": "비프라이드 주식회사\n\t ☎010-3593-5726",
+    "status": "접수중",
+    "link": "http://www.busan-50k.com/",
+    "is_official": true
+  },
+  {
+    "id": 127,
+    "name": "2026 전국의병 마라톤",
+    "date": "5/3(일)",
+    "location": "의령공설운동장 및 둑방길 일원",
+    "organizer": "전국의병마라톤대회 사무국\n\t ☎055-751-1085",
+    "status": "접수중",
+    "link": "http://www.urmarathon.com/",
+    "is_official": true
+  },
+  {
+    "id": 128,
+    "name": "제24회 불.수.사.도.북 Trail Run",
+    "date": "5/3(일)",
+    "location": "공릉동백세문",
+    "organizer": "(사)한국산악마라톤연맹\n\t ☎02-424-2195",
+    "status": "접수중",
+    "link": "http://www.koreatrail.net/home/main.php?link=event&einc=eapp&opp=20250511195054&csno=20170613133750#baseline",
+    "is_official": true
+  },
+  {
+    "id": 129,
+    "name": "커피 빵빵런 2026",
+    "date": "5/9(토)",
+    "location": "강릉 경포호수광장",
+    "organizer": "(주)1986프로덕션\n\t ☎02-364-1986",
+    "status": "접수중",
+    "link": "http://coffeebbangrun.com/",
+    "is_official": true
+  },
+  {
+    "id": 130,
+    "name": "제19회 대전 한밭울트라마라톤",
+    "date": "5/9(토)",
+    "location": "대전 서구 둔산대로 169",
+    "organizer": "대전 한밭울트라마라톤 조직위원\n\t ☎010-7353-8966",
+    "status": "접수중",
+    "link": "http://dhultra.kr/",
+    "is_official": true
+  },
+  {
+    "id": 131,
+    "name": "2026 식품안전 마라톤",
+    "date": "5/17(일)",
+    "location": "대전엑스포시민광장",
+    "organizer": "식품의약품안전처\n\t ☎042-638-1080",
+    "status": "접수중",
+    "link": "http://mara1080.com/event/29a34ee9-32a9-4a3b-b92f-37b3772cc183",
+    "is_official": true
+  },
+  {
+    "id": 132,
+    "name": "2026 무의도구석구석 국제트레일런",
+    "date": "5/10(일)",
+    "location": "하나개해수욕장",
+    "organizer": "서울신문사, 인중구철인3종협회\n\t ☎010-5447-2445",
+    "status": "접수중",
+    "link": "http://cafe.naver.com/matrailrun/?viewType=pc",
+    "is_official": true
+  },
+  {
+    "id": 133,
+    "name": "2026 가정의달 하하호호마라톤",
+    "date": "5/10(일)",
+    "location": "신정교하부육상트랙구장",
+    "organizer": "(사)대한생활체육마라톤협회\n\t ☎00-1644-4219",
+    "status": "접수중",
+    "link": "http://www.xn--o39a84ke5dgxc710an6as16b.kr/",
+    "is_official": true
+  },
+  {
+    "id": 134,
+    "name": "2026 옥스팜 트레일워커",
+    "date": "5/16(토)",
+    "location": "인제정중앙휴게소",
+    "organizer": "재단법인 옥스팜코리아\n\t ☎02-739-8091",
+    "status": "접수중",
+    "link": "http://www.oxfamtrailwalker.or.kr/ko/",
+    "is_official": true
+  },
+  {
+    "id": 135,
+    "name": "소아암환우돕기 제23회 서울시민마라톤",
+    "date": "5/10(일)",
+    "location": "여의도 한강 물빛광장",
+    "organizer": "(사)소아암환우돕기 마라조직위\n\t ☎02-2647-4488",
+    "status": "접수중",
+    "link": "http://soaam.runningdr.co.kr/",
+    "is_official": true
+  },
+  {
+    "id": 136,
+    "name": "제4회 서울한강울트라마라톤",
+    "date": "5/16(토)",
+    "location": "석관동 우이천 다목적광장",
+    "organizer": "서울한강울트라마라톤대회조직위\n\t ☎010-3844-5211",
+    "status": "접수중",
+    "link": "http://www.seoul-hangang.kr/",
+    "is_official": true
+  },
+  {
+    "id": 137,
+    "name": "2026 THE RACE DAEJEON 10K",
+    "date": "5/17(일)",
+    "location": "대전 엑스포 과학공원 (예정)",
+    "organizer": "헤럴드경제\n\t ☎070-7727-1755",
+    "status": "접수중",
+    "link": "http://daejeon.therace.co.kr/",
+    "is_official": true
+  },
+  {
+    "id": 138,
+    "name": "제37회 지리산 화대종주",
+    "date": "5/24(일)",
+    "location": "화엄사주차장",
+    "organizer": "(사)한국산악마라톤연맹\n\t ☎02-424-2195",
+    "status": "접수중",
+    "link": "http://www.koreatrail.net/home/main.php?link=event&einc=eapp&opp=20250519153230&csno=20150930092416#baseline",
+    "is_official": true
+  },
+  {
+    "id": 139,
+    "name": "제18회 여명국제마라톤",
+    "date": "5/30(토)",
+    "location": "서울 뚝섬한강공원 수변광장",
+    "organizer": "(주)스포테인\n\t ☎02-3210-1666",
+    "status": "접수중",
+    "link": "http://www.dawnmarathon.com/",
+    "is_official": true
+  },
+  {
+    "id": 140,
+    "name": "제31회 바다의 날 마라톤",
+    "date": "5/23(토)",
+    "location": "상암동 평화의 공원 평화광장",
+    "organizer": "한국해운신문, 해양수산부\n\t ☎031-821-9949",
+    "status": "접수중",
+    "link": "http://badamarathon.com/",
+    "is_official": true
+  },
+  {
+    "id": 141,
+    "name": "제13회 거제100K",
+    "date": "5/30(토)",
+    "location": "거제시 동부면 거제중앙로288",
+    "organizer": "블루트레일\n\t ☎010-6449-5073",
+    "status": "접수중",
+    "link": "http://geoje100.creatorlink.net/",
+    "is_official": true
+  },
+  {
+    "id": 142,
+    "name": "전마협 창단25주년기념 2026금산월드런마라톤",
+    "date": "5/31(일)",
+    "location": "금산인삼엑스포주차장",
+    "organizer": "전국마라톤협회\n\t ☎042-638-1080",
+    "status": "접수중",
+    "link": "http://mara1080.com/event/d9909060-99e2-49ff-9112-0dc6c7c4d1db",
+    "is_official": true
+  },
+  {
+    "id": 143,
+    "name": "제9회남한산성TRAILRUNNING",
+    "date": "6/6(토)",
+    "location": "마천역 1번출구",
+    "organizer": "(사)한국산악마라톤연맹\n\t ☎02-424-2195",
+    "status": "접수중",
+    "link": "http://www.koreatrail.net/home/main.php?link=event&einc=eapp&opp=20250911090719&csno=20220731195207#baseline",
+    "is_official": true
+  },
+  {
+    "id": 144,
+    "name": "2026 THE RACE GWANGJU 10K",
+    "date": "5/31(일)",
+    "location": "광주월드컵경기장(예정)",
+    "organizer": "헤럴드경제\n\t ☎070-7727-1755",
+    "status": "접수중",
+    "link": "http://gwangju.therace.co.kr/",
+    "is_official": true
+  },
+  {
+    "id": 145,
+    "name": "2026년 독도수호를 위한 동호인마라톤",
+    "date": "5/31(일)",
+    "location": "경주시 서천체육광장",
+    "organizer": "경주시육상연맹\n\t ☎054-777-0577",
+    "status": "접수중",
+    "link": "http://xn--289a04w1ifu9bvwfi4b78e.com/",
+    "is_official": true
+  },
+  {
+    "id": 146,
+    "name": "2026 삼삼트레일런",
+    "date": "5/30(토)",
+    "location": "의정부예총",
+    "organizer": "삼삼이즈\n\t ☎010-2116-0148",
+    "status": "접수중",
+    "link": "http://samsamis.com/",
+    "is_official": true
+  },
+  {
+    "id": 147,
+    "name": "제5회 무등산무돌길완주대회",
+    "date": "6/13(토)",
+    "location": "광주역광장 출발, 각화저수지도착",
+    "organizer": "(사)무등산무돌길협의회\n\t ☎062-655-0518",
+    "status": "접수중",
+    "link": "http://www.mudolgil518.or.kr/",
+    "is_official": true
+  },
+  {
+    "id": 148,
+    "name": "2026 백양산숲길건강달리기",
+    "date": "5/31(일)",
+    "location": "학생문화회관(성지곡)",
+    "organizer": "(사)부산아마추어마라톤클럽연맹\n\t ☎010-6710-2023",
+    "status": "접수중",
+    "link": "http://www.bsama.co.kr/",
+    "is_official": true
+  },
+  {
+    "id": 149,
+    "name": "2026 제23회 빛고을 울트라마라톤",
+    "date": "6/13(토)",
+    "location": "광주 광역시청 야외광장",
+    "organizer": "빛고을울트라조직위원회\n\t ☎010-8837-4931",
+    "status": "접수중",
+    "link": "http://gj100k.org/",
+    "is_official": true
+  },
+  {
+    "id": 150,
+    "name": "희망드림 제23회 새벽강변 국제마라톤",
+    "date": "6/7(일)",
+    "location": "상암동 월드컵공원 평화의광장",
+    "organizer": "(사)한국마라톤협회\n\t ☎02-2647-4488",
+    "status": "접수중",
+    "link": "http://amarunsb.com/",
+    "is_official": true
+  },
+  {
+    "id": 151,
+    "name": "제11회 김대중 평화 마라톤",
+    "date": "6/14(일)",
+    "location": "상암 월드컵공원 평화광장",
+    "organizer": "(재)김대중기념사업회\n\t ☎02-569-5551",
+    "status": "접수중",
+    "link": "http://kdjrun.kr/",
+    "is_official": true
+  },
+  {
+    "id": 152,
+    "name": "제22회 영덕해변전국마라톤",
+    "date": "6/14(일)",
+    "location": "고래불해수욕장",
+    "organizer": "영덕군\n\t ☎010-5944-2686",
+    "status": "접수중",
+    "link": "http://www.runmp.kr/",
+    "is_official": true
+  },
+  {
+    "id": 153,
+    "name": "2026 제10회 포항철강마라톤",
+    "date": "6/13(토)",
+    "location": "포항 영일대 해상누각 앞",
+    "organizer": "경북매일신문\n\t ☎00-1600-3949",
+    "status": "접수중",
+    "link": "http://phsteelrun.com/",
+    "is_official": true
+  },
+  {
+    "id": 154,
+    "name": "제12회 시각장애인과 함께하는 어울림 마라톤",
+    "date": "6/13(토)",
+    "location": "상암월드컵경기장 평화광장",
+    "organizer": "서울시각장애인스포츠연맹\n\t ☎02-2092-0011",
+    "status": "접수중",
+    "link": "http://www.sbsa.or.kr/",
+    "is_official": true
+  },
+  {
+    "id": 155,
+    "name": "2026 람사르습지 밤섬런",
+    "date": "6/21(일)",
+    "location": "여의도 한강공원 물빛무대",
+    "organizer": "마포공동체라디오\n\t ☎02-332-3247",
+    "status": "접수중",
+    "link": "http://bamseomrun.kr/",
+    "is_official": true
+  },
+  {
+    "id": 156,
+    "name": "제25회 충주마라톤",
+    "date": "6/20(토)",
+    "location": "충주종합운동장",
+    "organizer": "충주시체육회\n\t ☎043-851-7330",
+    "status": "접수중",
+    "link": "http://cjapplemarathon.com/index.asp",
+    "is_official": true
+  },
+  {
+    "id": 157,
+    "name": "소백산 죽령TrailRunnig",
+    "date": "6/21(일)",
+    "location": "죽령휴게소",
+    "organizer": "(사)한국산악마라톤연맹\n\t ☎02-424-2195",
+    "status": "접수중",
+    "link": "http://www.koreatrail.net/home/main.php?link=event&einc=eapp&opp=20240812092847&csno=20230509115002#baseline",
+    "is_official": true
+  },
+  {
+    "id": 158,
+    "name": "제10회 노원구청장배 겸 회장배마라톤",
+    "date": "7/5(일)",
+    "location": "창동교 나눔의 광장",
+    "organizer": "노원구 노원구육상경기연맹\n\t ☎010-2040-8710",
+    "status": "접수중",
+    "link": "http://www.nowonmarathon.com/",
+    "is_official": true
+  },
+  {
+    "id": 159,
+    "name": "제8회안산인왕산북악산TRAILRUN",
+    "date": "7/5(일)",
+    "location": "연세대학교",
+    "organizer": "(사)한국산악마라톤연맹\n\t ☎02-424-2195",
+    "status": "접수중",
+    "link": "http://www.koreatrail.net/home/main.php?link=event&einc=eapp&opp=20250821124548&csno=20220326200847#baseline",
+    "is_official": true
+  },
+  {
+    "id": 160,
+    "name": "2026 울릉도 국제 트레일러닝",
+    "date": "7/12(일)",
+    "location": "울릉 공설운동장",
+    "organizer": "OSK 아웃도어스포츠코리아\n\t ☎070-8239-8815",
+    "status": "접수중",
+    "link": "http://osk.run/",
+    "is_official": true
+  },
+  {
+    "id": 161,
+    "name": "2026 대구세계마스터즈육상경기대회",
+    "date": "8/30(일)",
+    "location": "신천동로 일원",
+    "organizer": "대구광역시, 세계마스터즈육상연맹(WMA)\n\t ☎053-803-1834",
+    "status": "접수중",
+    "link": "http://www.wmac2026.com/",
+    "is_official": true
+  },
+  {
+    "id": 162,
+    "name": "2026 쿨밸리트레일레이스",
+    "date": "8/1(토)",
+    "location": "장수종합경기장",
+    "organizer": "(주)락앤런\n\t ☎063-352-2025",
+    "status": "접수중",
+    "link": "http://rocknrun.kr/",
+    "is_official": true
+  },
+  {
+    "id": 163,
+    "name": "제38회 지리산화대종주 Trail Run",
+    "date": "8/15(토)",
+    "location": "화엄사주차장",
+    "organizer": "(사)한국산악마라톤연맹\n\t ☎02-424-2195",
+    "status": "접수중",
+    "link": "http://www.koreatrail.net/home/main.php?link=event&einc=eapp&opp=20250820150217&csno=20191209143330#baseline",
+    "is_official": true
+  },
+  {
+    "id": 164,
+    "name": "제24회 청광종주TRAILRUNNING",
+    "date": "9/6(일)",
+    "location": "양재동 화물",
+    "organizer": "(사)한국산악마라톤연맹\n\t ☎02-424-2195",
+    "status": "접수중",
+    "link": "http://www.koreatrail.net/home/main.php?link=event&einc=eapp&opp=20250626120820&csno=20191016122754#baseline",
+    "is_official": true
+  },
+  {
+    "id": 165,
+    "name": "제23회 철원DMZ국제평화마라톤",
+    "date": "9/5(토)",
+    "location": "철원 고석정",
+    "organizer": "철원군, 한국일보\n\t ☎031-821-9902",
+    "status": "접수중",
+    "link": "http://dmzrun.kr/",
+    "is_official": true
+  },
+  {
+    "id": 166,
+    "name": "제14회설악산공룡능선CLIMBATHON",
+    "date": "9/13(일)",
+    "location": "설익산한계령휴계소",
+    "organizer": "(사)한국산악마라톤연맹\n\t ☎02-424-2195",
+    "status": "접수중",
+    "link": "http://www.koreatrail.net/home/main.php?link=event&einc=eapp&opp=20250910133652&csno=20191227110239#baseline",
+    "is_official": true
+  },
+  {
+    "id": 167,
+    "name": "빵트레일런 2026",
+    "date": "9/12(토)",
+    "location": "정선 하이원 리조트",
+    "organizer": "1986프로덕션\n\t ☎02-364-1986",
+    "status": "접수중",
+    "link": "http://bbangtrailrun.co.kr/",
+    "is_official": true
+  },
+  {
+    "id": 168,
+    "name": "2026 청계산.인릉산TrailRunn",
+    "date": "7/19(일)",
+    "location": "화물터미널청계산옛골",
+    "organizer": "(사)한국산악마라톤연맹\n\t ☎02-424-2195",
+    "status": "접수중",
+    "link": "http://www.koreatrail.net/home/main.php?link=event&einc=eapp&opp=20250821130406&csno=20190812093657#baseline",
+    "is_official": true
+  },
+  {
+    "id": 169,
+    "name": "2026 봉화송이 전국마라톤",
+    "date": "9/6(일)",
+    "location": "봉화공설운동장",
+    "organizer": "봉화군체육회, 매일신문사\n\t ☎00-1600-3949",
+    "status": "접수중",
+    "link": "http://bonghwarun.kr/",
+    "is_official": true
+  },
+  {
+    "id": 170,
+    "name": "2026 울진금강송힐링마라톤",
+    "date": "9/13(일)",
+    "location": "울진종합운동장",
+    "organizer": "울진군\n\t ☎010-9853-2686",
+    "status": "접수중",
+    "link": "http://www.ujrun.kr/",
+    "is_official": true
+  },
+  {
+    "id": 171,
+    "name": "제24회 청원생명쌀대청호마라톤",
+    "date": "10/17(토)",
+    "location": "문의체육공원",
+    "organizer": "청주시체육회\n\t ☎043-279-8073",
+    "status": "접수중",
+    "link": "http://race.cjsports.or.kr/",
+    "is_official": true
+  },
+  {
+    "id": 172,
+    "name": "2026 장수트레일레이스 Fall",
+    "date": "9/19(토)",
+    "location": "장수종합경기장",
+    "organizer": "(주)락앤런\n\t ☎063-352-2025",
+    "status": "접수중",
+    "link": "http://rocknrun.kr/",
+    "is_official": true
+  },
+  {
+    "id": 173,
+    "name": "제 2회 아산이순신 트레일",
+    "date": "10/3(토)",
+    "location": "아산 신정호 이순신장군 동상앞",
+    "organizer": "아산 이순신트레일 조직위원회\n\t ☎010-3447-9714",
+    "status": "접수중",
+    "link": "http://isunshintrail.com/",
+    "is_official": true
+  },
+  {
+    "id": 174,
+    "name": "제7회 천안삼거리 흥타령울트라마라톤",
+    "date": "10/10(토)",
+    "location": "천안삼거리공원",
+    "organizer": "천안삼거리흥타령울트라조직위\n\t ☎010-2412-5294",
+    "status": "접수중",
+    "link": "http://www.chultra.kr/",
+    "is_official": true
+  },
+  {
+    "id": 175,
+    "name": "제19회 가평자라섬 전국마라톤",
+    "date": "9/20(일)",
+    "location": "가평종합운동장(경기)",
+    "organizer": "가평군체육회, 세계일보\n\t ☎02-2647-4488",
+    "status": "접수중",
+    "link": "http://gprun.com/",
+    "is_official": true
+  },
+  {
+    "id": 176,
+    "name": "제20회 달서하프마라톤",
+    "date": "10/4(일)",
+    "location": "대구 달서구 호림강나루공원",
+    "organizer": "달서구체육회\n\t ☎053-635-8683",
+    "status": "접수중",
+    "link": "http://www.xn--bk1bo0gn4bnwmwqvbue1qa.kr/",
+    "is_official": true
+  },
+  {
+    "id": 177,
+    "name": "제26회 홍성마라톤",
+    "date": "10/9(금)",
+    "location": "홍주 종합경기장",
+    "organizer": "홍성군체육회\n\t ☎02-2647-4488",
+    "status": "접수중",
+    "link": "http://amarunhs.com/",
+    "is_official": true
+  },
+  {
+    "id": 178,
+    "name": "2026 jtbc 마라톤",
+    "date": "11/1(일)",
+    "location": "상암동 평화의 광장",
+    "organizer": "jtbc\n\t ☎02-2031-1935",
+    "status": "접수중",
+    "link": "http://marathon.jtbc.com/",
+    "is_official": true
+  },
+  {
+    "id": 179,
+    "name": "2026 경포마라톤",
+    "date": "10/17(토)",
+    "location": "강원특별자치도 강릉시",
+    "organizer": "(주)강원도민일보\n\t ☎033-651-0112",
+    "status": "접수중",
+    "link": "http://www.xn--289av7rnxbd06bmrc.com/",
+    "is_official": true
+  },
+  {
+    "id": 180,
+    "name": "2026 아시아 오픈 마라톤",
+    "date": "10/18(일)",
+    "location": "서울 광화문 광장",
+    "organizer": "아시아투데이\n\t ☎02-2647-4488",
+    "status": "접수중",
+    "link": "http://xn--he5bij42b36d/",
+    "is_official": true
   }
 ]
