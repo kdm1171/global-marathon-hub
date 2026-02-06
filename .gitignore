@@ -1,1 +1,5 @@
-node_modules/\n.next/\n.env*\npackage-lock.json\n*.log
+node_modules/
+.next/
+.env*
+*.log
+package-lock.json
