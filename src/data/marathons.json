@@ -1,0 +1,49 @@
+[
+  {
+    "id": 1,
+    "name": "2026 서울국제마라톤 (동아마라톤)",
+    "date": "2026-03-15",
+    "location": "서울 종로구 세종로 ~ 잠실종합운동장",
+    "distance": "풀코스, 10km",
+    "organizer": "동아일보사",
+    "status": "접수예정",
+    "link": "https://www.seoul-marathon.com/"
+  },
+  {
+    "id": 2,
+    "name": "제24회 대구국제마라톤대회",
+    "date": "2026-04-05",
+    "location": "대구광역시 일원",
+    "distance": "풀코스, 10km, 5km",
+    "organizer": "대구광역시",
+    "status": "접수중",
+    "link": "https://daegumarathon.com/"
+  },
+  {
+    "id": 3,
+    "name": "2026 경기일보 마라톤 대회",
+    "date": "2026-04-12",
+    "location": "수원종합운동장",
+    "distance": "하프, 10km, 5km",
+    "organizer": "경기일보",
+    "status": "접수중"
+  },
+  {
+    "id": 4,
+    "name": "제30회 경주벚꽃마라톤대회",
+    "date": "2026-04-04",
+    "location": "경주시 일원",
+    "distance": "풀코스, 하프, 10km, 5km",
+    "organizer": "경주시",
+    "status": "접수마감"
+  },
+  {
+    "id": 5,
+    "name": "2026 제주국제관광마라톤축제",
+    "date": "2026-05-17",
+    "location": "구좌종합운동장",
+    "distance": "풀코스, 하프, 10km",
+    "organizer": "제주특별자치도관광협회",
+    "status": "접수예정"
+  }
+]

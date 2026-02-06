@@ -1,0 +1,19 @@
+{
+  "project_name": "Global-Marathon-Hub",
+  "version": "1.0.0",
+  "current_phase": "Implementation",
+  "status": "active",
+  "constraints": {
+    "deployment": "Vercel Hobby",
+    "database": "None (Static JSON First)",
+    "styling": "Tailwind + Shadcn",
+    "budget": 0
+  },
+  "milestones": [
+    { "id": 1, "task": "Phase 0: The Inquisition", "completed": true },
+    { "id": 2, "task": "Phase 1: Visual Audit & Data Extraction", "completed": true },
+    { "id": 3, "task": "Phase 2: Architecture & Simulation", "completed": true },
+    { "id": 4, "task": "Phase 3: Development", "completed": false },
+    { "id": 5, "task": "Phase 4: QA & Release", "completed": false }
+  ]
+}
