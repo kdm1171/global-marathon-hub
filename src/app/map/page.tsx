@@ -1,15 +1,76 @@
 "use client";
 
-import React from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { ArrowLeft, MapPin, Search } from 'lucide-react';
+import { ArrowLeft, MapPin, Search, Calendar, ChevronRight } from 'lucide-react';
+import marathonData from '@/data/marathons.json';
+
+declare global {
+  interface window {
+    kakao: any;
+  }
+}
 
 export default function MapPage() {
   const router = useRouter();
+  const mapContainer = useRef<HTMLDivElement>(null);
+  const [selectedRace, setSelectedRace] = useState<any>(null);
+  const [mapLoaded, setMapLoaded] = useState(false);
+
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = `//dapi.kakao.com/v2/maps/sdk.js?appkey=${process.env.NEXT_PUBLIC_KAKAO_MAPS_CLIENT_ID}&libraries=services&autoload=false`;
+    script.async = true;
+    
+    document.head.appendChild(script);
+
+    script.onload = () => {
+      (window as any).kakao.maps.load(() => {
+        if (!mapContainer.current) return;
+
+        const options = {
+          center: new (window as any).kakao.maps.LatLng(36.5, 127.5), // 한국 중심
+          level: 12
+        };
+
+        const map = new (window as any).kakao.maps.Map(mapContainer.current, options);
+        const geocoder = new (window as any).kakao.maps.services.Geocoder();
+
+        // 데이터 마킹
+        marathonData.forEach((race: any) => {
+          // 주소로 좌표 검색
+          geocoder.addressSearch(race.location.split('(')[0], (result: any, status: any) => {
+            if (status === (window as any).kakao.maps.services.Status.OK) {
+              const coords = new (window as any).kakao.maps.LatLng(result[0].y, result[0].x);
+
+              const marker = new (window as any).kakao.maps.Marker({
+                map: map,
+                position: coords
+              });
+
+              (window as any).kakao.maps.event.addListener(marker, 'click', () => {
+                setSelectedRace(race);
+                map.panTo(coords);
+              });
+            }
+          });
+        });
+
+        setMapLoaded(true);
+      });
+    };
+
+    return () => {
+      document.head.removeChild(script);
+    };
+  }, []);
 
   return (
-    <main className="relative h-screen bg-slate-100 overflow-hidden font-sans">
-      {/* Search Overlay */}
+    <main className="relative h-screen bg-slate-50 overflow-hidden font-sans">
+      {/* Map Container */}
+      <div ref={mapContainer} className="w-full h-full" />
+
+      {/* Top Overlay */}
       <div className="absolute top-6 left-4 right-4 z-20 max-w-md mx-auto">
         <div className="bg-white/90 backdrop-blur-xl rounded-[24px] shadow-2xl border border-white/20 p-2 flex items-center gap-3">
           <button 
@@ -18,46 +79,66 @@ export default function MapPage() {
           >
             <ArrowLeft className="w-6 h-6 text-slate-900" />
           </button>
-          <div className="flex-1 relative">
-            <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
-            <input 
-              type="text" 
-              placeholder="장소 또는 대회명 검색..."
-              className="w-full bg-slate-50 border-none rounded-xl py-2.5 pl-10 pr-4 text-sm focus:ring-0 placeholder:text-slate-400"
-            />
+          <div className="flex-1 text-sm font-bold text-slate-900 px-2">
+            전국 대회 지도 탐색
+          </div>
+          <div className="pr-4">
+            <span className="px-2 py-1 bg-blue-600 text-white text-[10px] font-black rounded-lg uppercase">Live</span>
           </div>
         </div>
       </div>
 
-      {/* Map Content Placeholder */}
-      <div className="w-full h-full flex flex-col items-center justify-center space-y-6">
-        <div className="w-24 h-24 bg-blue-100 rounded-full flex items-center justify-center animate-pulse">
-          <MapPin className="w-10 h-10 text-blue-600" />
-        </div>
-        <div className="text-center">
-          <h2 className="text-xl font-black text-slate-900">Map View</h2>
-          <p className="text-sm text-slate-500 mt-2 font-medium">내 위치 주변의 마라톤 대회를 시각화합니다.<br/>(지도 API 연동 작업 중)</p>
-        </div>
-        <button 
-          onClick={() => router.push('/')}
-          className="px-8 py-3 bg-slate-900 text-white rounded-2xl font-bold shadow-xl"
-        >
-          목록으로 돌아가기
-        </button>
-      </div>
+      {/* Selected Race Card (Bottom Sheet Style) */}
+      {selectedRace && (
+        <div className="absolute bottom-10 left-4 right-4 z-30 max-w-md mx-auto animate-in slide-in-from-bottom duration-500">
+          <div className="bg-white rounded-[32px] shadow-[0_20px_60px_-10px_rgba(0,0,0,0.3)] p-6 border border-slate-100 relative overflow-hidden">
+            <button 
+              onClick={() => setSelectedRace(null)}
+              className="absolute top-4 right-6 text-slate-300 hover:text-slate-900 text-2xl font-light"
+            >
+              &times;
+            </button>
+            
+            <div className="flex items-center gap-2 mb-3">
+              <span className="px-2.5 py-1 rounded-lg bg-blue-50 text-blue-600 text-[10px] font-black uppercase tracking-wider">
+                {selectedRace.status}
+              </span>
+              <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest">{selectedRace.distance}</span>
+            </div>
 
-      {/* Map Bottom Sheet Mockup */}
-      <div className="absolute bottom-8 left-4 right-4 z-20 max-w-md mx-auto">
-        <div className="bg-white/90 backdrop-blur-xl rounded-[28px] shadow-2xl p-6 border border-white/20">
-          <div className="w-12 h-1 bg-slate-200 rounded-full mx-auto mb-6" />
-          <div className="flex justify-between items-center mb-2">
-            <span className="text-[11px] font-black text-blue-600 uppercase">Featured Venue</span>
-            <span className="text-[11px] font-bold text-slate-400">3 Races Nearby</span>
+            <h3 className="text-xl font-black text-slate-900 mb-4 leading-tight">
+              {selectedRace.name}
+            </h3>
+
+            <div className="space-y-2 mb-6">
+              <div className="flex items-center text-slate-500 text-sm">
+                <Calendar className="w-4 h-4 mr-2 text-blue-500" />
+                <span className="font-bold text-slate-700">{selectedRace.date}</span>
+              </div>
+              <div className="flex items-center text-slate-500 text-sm">
+                <MapPin className="w-4 h-4 mr-2 text-rose-500" />
+                <span className="font-bold text-slate-700 truncate">{selectedRace.location}</span>
+              </div>
+            </div>
+
+            <button 
+              onClick={() => router.push(`/marathon/${selectedRace.id}`)}
+              className="w-full py-4 bg-slate-900 text-white rounded-[20px] font-black flex items-center justify-center gap-2 hover:bg-blue-600 transition-all active:scale-[0.98]"
+            >
+              대회 상세정보 보기
+              <ChevronRight className="w-4 h-4" />
+            </button>
           </div>
-          <h3 className="text-lg font-extrabold text-slate-900">제주 구좌종합운동장</h3>
-          <p className="text-sm text-slate-500 font-medium mt-1">제주특별자치도 제주시 구좌읍 김녕리</p>
         </div>
-      </div>
+      )}
+
+      {/* Loading State */}
+      {!mapLoaded && (
+        <div className="absolute inset-0 z-50 bg-white flex flex-col items-center justify-center">
+          <div className="w-16 h-16 border-4 border-blue-100 border-t-blue-600 rounded-full animate-spin mb-4" />
+          <p className="text-sm font-black text-slate-400 uppercase tracking-widest italic">Loading Runner Maps...</p>
+        </div>
+      )}
     </main>
   );
 }
