@@ -19,10 +19,6 @@ export default function RootLayout({
     <html lang="ko">
       <body className={inter.className}>
         {children}
-        <Script
-          src={`//dapi.kakao.com/v2/maps/sdk.js?appkey=${process.env.NEXT_PUBLIC_KAKAO_MAPS_CLIENT_ID}&libraries=services&autoload=false`}
-          strategy="beforeInteractive"
-        />
       </body>
     </html>
   );

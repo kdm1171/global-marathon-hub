@@ -185,6 +185,7 @@
   },
   "active": "d4970f8f79db9397",
   "lastOpenFiles": [
+    "tsconfig.tsbuildinfo",
     "src/app/map/page.tsx",
     "src/app/map",
     "src/app/marathon/[id]/DetailClient.tsx",
@@ -195,7 +196,6 @@
     "node_modules/next/dist/server/lib/squoosh/resize/squoosh_resize_bg.wasm",
     "node_modules/next/dist/server/lib/squoosh/png/squoosh_png_bg.wasm",
     "node_modules/next/dist/server/lib/squoosh/png/squoosh_oxipng_bg.wasm",
-    "node_modules/next/dist/server/lib/squoosh/rotate/rotate.wasm",
     "node_modules/next/dist/compiled/regenerator-runtime/README.md",
     "node_modules/next/README.md",
     "node_modules/next/dist/compiled/react-refresh/README.md",
