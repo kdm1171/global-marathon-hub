@@ -1,10 +1,12 @@
 "use client";
 
 import React, { useState, useMemo } from 'react';
+import { useRouter } from 'next/navigation';
 import { Calendar, MapPin, ChevronRight, Filter, Award, Search, Sparkles } from 'lucide-react';
 import marathonData from '@/data/marathons.json';
 
 export default function HomePage() {
+  const router = useRouter();
   const [filter, setFilter] = useState('전체');
   const [searchTerm, setSearchTerm] = useState('');
 
@@ -118,7 +120,10 @@ export default function HomePage() {
                       </span>
                     ))}
                   </div>
-                  <button className="group/btn flex items-center text-sm font-black text-slate-900 hover:text-blue-600 transition-colors">
+                  <button 
+                    onClick={() => router.push(`/marathon/${race.id}`)}
+                    className="group/btn flex items-center text-sm font-black text-slate-900 hover:text-blue-600 transition-colors"
+                  >
                     View Details
                     <div className="ml-2 w-6 h-6 rounded-full bg-slate-900 group-hover/btn:bg-blue-600 flex items-center justify-center transition-colors">
                       <ChevronRight className="w-3.5 h-3.5 text-white" />
@@ -152,11 +157,17 @@ export default function HomePage() {
       {/* Bottom Nav - Elevated Design */}
       <div className="fixed bottom-6 left-1/2 -translate-x-1/2 w-full max-w-[340px] z-50">
         <nav className="bg-slate-900/90 backdrop-blur-2xl border border-white/10 p-2 flex justify-between items-center rounded-[32px] shadow-[0_20px_50px_rgba(0,0,0,0.3)]">
-          <button className="flex-1 flex flex-col items-center py-2 text-white">
+          <button 
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+            className="flex-1 flex flex-col items-center py-2 text-white"
+          >
             <Calendar className="w-5 h-5 mb-1" />
             <span className="text-[9px] font-bold opacity-80 uppercase tracking-tighter">Feed</span>
           </button>
-          <button className="flex-1 flex flex-col items-center py-2 text-slate-500 hover:text-white transition-colors">
+          <button 
+            onClick={() => router.push('/map')}
+            className="flex-1 flex flex-col items-center py-2 text-slate-500 hover:text-white transition-colors"
+          >
             <MapPin className="w-5 h-5 mb-1" />
             <span className="text-[9px] font-bold opacity-80 uppercase tracking-tighter">Map</span>
           </button>
