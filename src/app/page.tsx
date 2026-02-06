@@ -21,45 +21,58 @@ export default function HomePage() {
   const regions = ['전체', '서울', '경기', '인천', '강원', '충청', '경상', '전라', '제주'];
 
   return (
-    <main className="min-h-screen bg-[#F8FAFC] pb-24 font-sans selection:bg-blue-100 selection:text-blue-600">
-      {/* Dynamic Background Decoration for PC */}
-      <div className="fixed inset-0 pointer-events-none overflow-hidden opacity-40">
-        <div className="absolute -top-24 -left-24 w-96 h-96 bg-blue-200 rounded-full blur-3xl opacity-20" />
-        <div className="absolute top-1/2 -right-24 w-80 h-80 bg-indigo-200 rounded-full blur-3xl opacity-20" />
+    <main className="min-h-screen bg-[#F8FAFC] pb-24 font-sans selection:bg-blue-100 selection:text-blue-600 relative">
+      {/* Background Decoration */}
+      <div className="fixed inset-0 pointer-events-none overflow-hidden">
+        <div className="absolute -top-24 -left-24 w-[500px] h-[500px] bg-blue-100 rounded-full blur-[120px] opacity-30" />
+        <div className="absolute bottom-0 -right-24 w-[600px] h-[600px] bg-indigo-100 rounded-full blur-[150px] opacity-30" />
       </div>
 
       {/* Header */}
-      <header className="sticky top-0 z-50 bg-white/70 backdrop-blur-xl border-b border-slate-200/60 px-4 py-4">
-        <div className="max-w-md mx-auto flex items-center justify-between gap-4">
-          <div className="flex items-center gap-1.5">
-            <div className="w-8 h-8 bg-blue-600 rounded-xl flex items-center justify-center shadow-lg shadow-blue-200">
-              <Sparkles className="w-4 h-4 text-white fill-white" />
+      <header className="sticky top-0 z-50 bg-white/80 backdrop-blur-2xl border-b border-slate-200/50 px-4 py-4 md:px-8">
+        <div className="max-w-6xl mx-auto flex items-center justify-between gap-6">
+          <div 
+            className="flex items-center gap-2 cursor-pointer shrink-0" 
+            onClick={() => window.location.reload()}
+          >
+            <div className="w-10 h-10 bg-blue-600 rounded-2xl flex items-center justify-center shadow-xl shadow-blue-200">
+              <Sparkles className="w-5 h-5 text-white fill-white" />
             </div>
-            <h1 className="text-xl font-[900] italic tracking-tighter text-slate-900">RUNHUB</h1>
+            <h1 className="text-2xl font-[1000] italic tracking-tighter text-slate-900 hidden sm:block">RUNHUB</h1>
           </div>
-          <div className="relative flex-1">
-            <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
+          
+          <div className="relative flex-1 max-w-xl mx-auto">
+            <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
             <input 
               type="text" 
-              placeholder="어떤 대회를 찾으시나요?"
-              className="w-full bg-slate-100/80 border-none rounded-2xl py-2.5 pl-10 pr-4 text-sm focus:ring-2 focus:ring-blue-500/20 focus:bg-white transition-all outline-none placeholder:text-slate-400"
+              placeholder="대회명, 지역, 주최사 검색..."
+              className="w-full bg-slate-100/80 border-none rounded-2xl py-3 pl-12 pr-4 text-sm focus:ring-2 focus:ring-blue-500/20 focus:bg-white transition-all outline-none"
               onChange={(e) => setSearchTerm(e.target.value)}
             />
+          </div>
+
+          <div className="hidden md:flex items-center gap-4">
+            <button className="text-sm font-bold text-slate-500 hover:text-slate-900 transition-colors px-3 py-2">About</button>
+            <button className="px-5 py-2.5 bg-slate-900 text-white rounded-xl text-sm font-bold shadow-lg shadow-slate-200 active:scale-95 transition-all">Sign In</button>
           </div>
         </div>
       </header>
 
-      {/* Region Chips - PC Centering Fixed */}
-      <div className="bg-white/50 border-b border-slate-200/40 sticky top-[73px] z-40 backdrop-blur-md">
-        <div className="max-w-md mx-auto px-4">
-          <div className="overflow-x-auto no-scrollbar py-4 flex gap-2.5">
+      {/* Region Filter Section */}
+      <div className="bg-white/40 border-b border-slate-200/40 sticky top-[73px] z-40 backdrop-blur-md">
+        <div className="max-w-6xl mx-auto px-4 md:px-8">
+          <div className="overflow-x-auto no-scrollbar py-4 flex items-center gap-3">
+            <div className="flex items-center gap-2 pr-4 border-r border-slate-200 hidden sm:flex">
+              <Filter className="w-4 h-4 text-slate-400" />
+              <span className="text-xs font-black text-slate-400 uppercase tracking-tighter">Region</span>
+            </div>
             {regions.map(r => (
               <button
                 key={r}
                 onClick={() => setFilter(r)}
-                className={`px-5 py-2 rounded-2xl text-[13px] font-bold whitespace-nowrap transition-all duration-300 ${
+                className={`px-6 py-2.5 rounded-full text-[13px] font-extrabold whitespace-nowrap transition-all duration-300 ${
                   filter === r 
-                    ? 'bg-slate-900 text-white shadow-md shadow-slate-200 scale-105' 
+                    ? 'bg-blue-600 text-white shadow-lg shadow-blue-200 scale-105' 
                     : 'bg-white text-slate-500 border border-slate-200 hover:border-slate-300 hover:bg-slate-50'
                 }`}
               >
@@ -70,65 +83,69 @@ export default function HomePage() {
         </div>
       </div>
 
-      {/* Marathon List */}
-      <div className="max-w-md mx-auto px-4 py-8 space-y-6 relative z-10">
-        <div className="flex items-end justify-between px-1">
+      {/* Main Content Area */}
+      <div className="max-w-6xl mx-auto px-4 md:px-8 py-10 relative z-10">
+        <div className="flex items-end justify-between mb-10 px-1">
           <div>
-            <h2 className="text-2xl font-black text-slate-900 tracking-tight">Race Feed</h2>
-            <p className="text-[13px] font-medium text-slate-400 mt-0.5">실시간으로 업데이트되는 대회 일정</p>
+            <div className="flex items-center gap-2 mb-1">
+              <span className="w-8 h-[3px] bg-blue-600 rounded-full" />
+              <span className="text-[11px] font-black text-blue-600 uppercase tracking-[0.2em]">Live Calendar</span>
+            </div>
+            <h2 className="text-3xl md:text-4xl font-[1000] text-slate-900 tracking-tight">Race Feed</h2>
           </div>
-          <span className="text-[13px] font-bold text-blue-600 bg-blue-50 px-3 py-1 rounded-full">{filteredData.length}</span>
+          <div className="flex flex-col items-end gap-1">
+            <span className="text-xs font-bold text-slate-400 uppercase tracking-widest">Total Events</span>
+            <span className="text-xl font-black text-slate-900">{filteredData.length}</span>
+          </div>
         </div>
 
-        <div className="space-y-5">
+        {/* Responsive Grid System: 1col (mobile), 2col (tablet), 3col (pc) */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {filteredData.map((race: any, idx) => (
-            <article key={idx} className="group bg-white rounded-[28px] border border-slate-200/70 overflow-hidden shadow-[0_4px_20px_-2px_rgba(0,0,0,0.05)] hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] transition-all duration-500 hover:-translate-y-1">
-              <div className="p-6">
-                <div className="flex justify-between items-start mb-4">
-                  <div className="flex items-center gap-2">
-                    <span className="px-3 py-1 rounded-full bg-emerald-50 text-emerald-600 text-[11px] font-black uppercase tracking-wider border border-emerald-100">
-                      {race.status || 'D-DAY'}
+            <article 
+              key={idx} 
+              className="group bg-white rounded-[32px] border border-slate-200/60 overflow-hidden shadow-[0_8px_30px_-4px_rgba(0,0,0,0.04)] hover:shadow-[0_20px_50px_-8px_rgba(0,0,0,0.1)] transition-all duration-500 hover:-translate-y-2 flex flex-col cursor-pointer"
+              onClick={() => router.push(`/marathon/${race.id}`)}
+            >
+              <div className="p-7 flex-1 flex flex-col">
+                <div className="flex justify-between items-start mb-6">
+                  <div className="flex flex-wrap items-center gap-2">
+                    <span className="px-3.5 py-1.5 rounded-xl bg-blue-50 text-blue-600 text-[10px] font-black uppercase tracking-wider border border-blue-100">
+                      {race.status || 'Active'}
                     </span>
-                    <span className="w-1 h-1 rounded-full bg-slate-200" />
-                    <span className="text-[11px] font-bold text-slate-400 uppercase">{race.organizer || 'Official'}</span>
+                    <span className="px-3.5 py-1.5 rounded-xl bg-slate-50 text-slate-500 text-[10px] font-black uppercase tracking-wider border border-slate-100">
+                      {race.distance || 'Multi'}
+                    </span>
                   </div>
-                  <button className="w-10 h-10 rounded-full flex items-center justify-center text-slate-300 hover:bg-slate-50 hover:text-rose-500 transition-all">
+                  <button className="w-10 h-10 rounded-2xl flex items-center justify-center text-slate-300 hover:bg-rose-50 hover:text-rose-500 transition-all">
                     <Award className="w-5 h-5" />
                   </button>
                 </div>
 
-                <h3 className="text-[19px] font-extrabold text-slate-900 mb-5 leading-[1.4] tracking-tight group-hover:text-blue-600 transition-colors">
+                <h3 className="text-[21px] font-[900] text-slate-900 mb-6 leading-[1.35] tracking-tight group-hover:text-blue-600 transition-colors line-clamp-2">
                   {race.name}
                 </h3>
 
-                <div className="grid grid-cols-2 gap-3 mb-6">
-                  <div className="flex items-center p-3 bg-slate-50 rounded-2xl border border-slate-100">
-                    <Calendar className="w-4 h-4 mr-2.5 text-blue-500" />
-                    <span className="text-[13px] font-bold text-slate-700">{race.date}</span>
+                <div className="space-y-3.5 mb-8 flex-1">
+                  <div className="flex items-center text-slate-600">
+                    <div className="w-8 h-8 rounded-lg bg-slate-100 flex items-center justify-center mr-3 text-slate-400">
+                      <Calendar className="w-4 h-4" />
+                    </div>
+                    <span className="text-sm font-bold">{race.date}</span>
                   </div>
-                  <div className="flex items-center p-3 bg-slate-50 rounded-2xl border border-slate-100">
-                    <MapPin className="w-4 h-4 mr-2.5 text-rose-500" />
-                    <span className="text-[13px] font-bold text-slate-700 truncate">{race.location.split(' ')[0]} {race.location.split(' ')[1]}</span>
+                  <div className="flex items-center text-slate-600">
+                    <div className="w-8 h-8 rounded-lg bg-slate-100 flex items-center justify-center mr-3 text-slate-400">
+                      <MapPin className="w-4 h-4" />
+                    </div>
+                    <span className="text-sm font-bold truncate">{race.location}</span>
                   </div>
                 </div>
 
-                <div className="flex items-center justify-between pt-5 border-t border-slate-50">
-                  <div className="flex gap-1.5">
-                    {['Full', 'Half', '10k'].map(dist => (
-                      <span key={dist} className="text-[10px] font-black text-slate-400 px-2 py-1 bg-slate-50 rounded-lg uppercase">
-                        {dist}
-                      </span>
-                    ))}
+                <div className="flex items-center justify-between pt-6 border-t border-slate-50">
+                  <span className="text-[11px] font-bold text-slate-400 uppercase tracking-widest">{race.organizer || 'Official'}</span>
+                  <div className="w-10 h-10 rounded-full bg-slate-900 group-hover:bg-blue-600 flex items-center justify-center transition-all duration-300 group-hover:rotate-[360deg]">
+                    <ChevronRight className="w-5 h-5 text-white" />
                   </div>
-                  <button 
-                    onClick={() => router.push(`/marathon/${race.id}`)}
-                    className="group/btn flex items-center text-sm font-black text-slate-900 hover:text-blue-600 transition-colors"
-                  >
-                    View Details
-                    <div className="ml-2 w-6 h-6 rounded-full bg-slate-900 group-hover/btn:bg-blue-600 flex items-center justify-center transition-colors">
-                      <ChevronRight className="w-3.5 h-3.5 text-white" />
-                    </div>
-                  </button>
                 </div>
               </div>
             </article>
@@ -136,51 +153,46 @@ export default function HomePage() {
         </div>
 
         {filteredData.length === 0 && (
-          <div className="py-32 text-center space-y-5">
-            <div className="bg-slate-100 w-20 h-20 rounded-[32px] flex items-center justify-center mx-auto text-slate-300">
-              <Filter className="w-10 h-10" />
+          <div className="py-40 text-center">
+            <div className="bg-slate-100 w-24 h-24 rounded-[40px] flex items-center justify-center mx-auto text-slate-300 mb-6">
+              <Filter className="w-12 h-12" />
             </div>
-            <div>
-              <p className="text-slate-900 font-bold text-lg">검색 결과가 없어요</p>
-              <p className="text-slate-400 text-sm mt-1">다른 지역이나 키워드로 검색해보세요.</p>
-            </div>
+            <h3 className="text-2xl font-black text-slate-900">검색 결과가 없습니다</h3>
+            <p className="text-slate-400 mt-2 font-medium">지역을 변경하거나 대회명을 다시 확인해주세요.</p>
             <button 
               onClick={() => {setFilter('전체'); setSearchTerm('');}}
-              className="text-blue-600 font-bold text-sm underline underline-offset-4"
+              className="mt-8 px-8 py-3 bg-slate-900 text-white rounded-2xl font-bold hover:bg-blue-600 transition-colors shadow-xl shadow-slate-200"
             >
-              필터 초기화하기
+              필터 초기화
             </button>
           </div>
         )}
       </div>
 
-      {/* Bottom Nav - Elevated Design */}
-      <div className="fixed bottom-6 left-1/2 -translate-x-1/2 w-full max-w-[340px] z-50">
-        <nav className="bg-slate-900/90 backdrop-blur-2xl border border-white/10 p-2 flex justify-between items-center rounded-[32px] shadow-[0_20px_50px_rgba(0,0,0,0.3)]">
-          <button 
-            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-            className="flex-1 flex flex-col items-center py-2 text-white"
-          >
+      {/* Floating Action Button for PC / Mobile Nav for Mobile */}
+      <div className="fixed bottom-8 left-1/2 -translate-x-1/2 w-full max-w-md px-4 md:max-w-lg z-50">
+        <nav className="bg-slate-900/95 backdrop-blur-2xl border border-white/10 p-2.5 flex justify-between items-center rounded-[32px] shadow-[0_30px_60px_-12px_rgba(0,0,0,0.4)]">
+          <button className="flex-1 flex flex-col items-center py-2.5 text-white">
             <Calendar className="w-5 h-5 mb-1" />
-            <span className="text-[9px] font-bold opacity-80 uppercase tracking-tighter">Feed</span>
+            <span className="text-[10px] font-black opacity-80 uppercase tracking-tighter">Feed</span>
           </button>
           <button 
             onClick={() => router.push('/map')}
-            className="flex-1 flex flex-col items-center py-2 text-slate-500 hover:text-white transition-colors"
+            className="flex-1 flex flex-col items-center py-2.5 text-slate-500 hover:text-white transition-colors"
           >
             <MapPin className="w-5 h-5 mb-1" />
-            <span className="text-[9px] font-bold opacity-80 uppercase tracking-tighter">Map</span>
+            <span className="text-[10px] font-black opacity-80 uppercase tracking-tighter">Map Search</span>
           </button>
-          <div className="w-12 h-12 bg-blue-600 rounded-full flex items-center justify-center -mt-10 border-4 border-[#F8FAFC] shadow-xl shadow-blue-500/20 active:scale-90 transition-transform cursor-pointer">
-            <Search className="w-5 h-5 text-white" />
+          <div className="w-14 h-14 bg-blue-600 rounded-full flex items-center justify-center -mt-12 border-[6px] border-[#F8FAFC] shadow-2xl shadow-blue-500/40 active:scale-90 transition-transform cursor-pointer group">
+            <Search className="w-6 h-6 text-white group-hover:scale-110 transition-transform" />
           </div>
-          <button className="flex-1 flex flex-col items-center py-2 text-slate-500 hover:text-white transition-colors">
+          <button className="flex-1 flex flex-col items-center py-2.5 text-slate-500 hover:text-white transition-colors">
             <Award className="w-5 h-5 mb-1" />
-            <span className="text-[9px] font-bold opacity-80 uppercase tracking-tighter">My</span>
+            <span className="text-[10px] font-black opacity-80 uppercase tracking-tighter">Awards</span>
           </button>
-          <button className="flex-1 flex flex-col items-center py-2 text-slate-500 hover:text-white transition-colors">
-            <div className="w-5 h-5 rounded-full bg-slate-700 mb-1 border border-white/20" />
-            <span className="text-[9px] font-bold opacity-80 uppercase tracking-tighter">Profile</span>
+          <button className="flex-1 flex flex-col items-center py-2.5 text-slate-500 hover:text-white transition-colors">
+            <div className="w-6 h-6 rounded-xl bg-slate-700 mb-1 border border-white/20 overflow-hidden flex items-center justify-center text-[10px] font-bold">ME</div>
+            <span className="text-[10px] font-black opacity-80 uppercase tracking-tighter">Profile</span>
           </button>
         </nav>
       </div>
