@@ -1,134 +1,119 @@
 "use client";
 
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
-import { ArrowLeft, AlertCircle } from 'lucide-react';
+import { ArrowLeft, MapPin, Calendar, ExternalLink, Clock } from 'lucide-react';
+import { Map, MapMarker } from 'react-kakao-maps-sdk';
 import marathonData from '@/data/marathons.json';
-
-const SCRIPT_ID = 'kakao-map-sdk';
-
-function waitForKakao(timeout: number): Promise<void> {
-  return new Promise((resolve, reject) => {
-    const start = Date.now();
-    const poll = () => {
-      if (window.kakao?.maps?.LatLng) {
-        resolve();
-      } else if (Date.now() - start > timeout) {
-        reject(new Error('카카오 SDK 로드 시간 초과 (API 키 또는 도메인 설정을 확인하세요)'));
-      } else {
-        setTimeout(poll, 100);
-      }
-    };
-    poll();
-  });
-}
-
-function loadKakaoSDK(appkey: string): Promise<void> {
-  // 이미 완전히 로드된 경우
-  if (window.kakao?.maps?.LatLng) {
-    return Promise.resolve();
-  }
-
-  // 스크립트 태그가 이미 있으면 중복 삽입하지 않고 대기
-  if (document.getElementById(SCRIPT_ID)) {
-    return waitForKakao(10000);
-  }
-
-  return new Promise((resolve, reject) => {
-    const script = document.createElement('script');
-    script.id = SCRIPT_ID;
-    script.src = `https://dapi.kakao.com/v2/maps/sdk.js?appkey=${appkey}&libraries=services&autoload=false`;
-    script.async = true;
-
-    script.onload = () => {
-      try {
-        window.kakao.maps.load(() => resolve());
-      } catch (e) {
-        reject(new Error('카카오 SDK가 로드되었으나 초기화에 실패했습니다. API 키를 확인하세요.'));
-      }
-    };
-    script.onerror = () => reject(new Error('카카오 서버 응답 오류 또는 도메인 차단'));
-
-    document.head.appendChild(script);
-  });
-}
 
 export default function MapPage() {
   const router = useRouter();
-  const mapContainer = useRef<HTMLDivElement>(null);
-  const [status, setStatus] = useState<'loading' | 'ready' | 'error'>('loading');
-  const [errorDetail, setErrorDetail] = useState('');
+  const [selectedRace, setSelectedRace] = useState<any>(null);
+  const [isReady, setIsReady] = useState(false);
+  
+  const KAKAO_KEY = process.env.NEXT_PUBLIC_KAKAO_MAP_API_KEY;
+  const validRaces = marathonData.filter((r: any) => r.lat && r.lng);
 
   useEffect(() => {
-    let cancelled = false;
-
-    const KAKAO_KEY = process.env.NEXT_PUBLIC_KAKAO_MAP_API_KEY;
-    if (!KAKAO_KEY) {
-      setStatus('error');
-      setErrorDetail('API KEY가 설정되지 않았습니다.');
-      return;
-    }
-
-    loadKakaoSDK(KAKAO_KEY)
-      .then(() => {
-        if (cancelled || !mapContainer.current) return;
-
-        const map = new window.kakao.maps.Map(mapContainer.current, {
-          center: new window.kakao.maps.LatLng(36.5, 127.5),
-          level: 12,
-        });
-        const geocoder = new window.kakao.maps.services.Geocoder();
-
-        marathonData.slice(0, 30).forEach((race: any) => {
-          if (!race.location) return;
-          const cleanAddr = race.location.split('~')[0].split('(')[0].trim();
-          geocoder.addressSearch(cleanAddr, (result: any, stat: any) => {
-            if (stat === window.kakao.maps.services.Status.OK) {
-              const coords = new window.kakao.maps.LatLng(result[0].y, result[0].x);
-              const marker = new window.kakao.maps.Marker({ map, position: coords });
-              window.kakao.maps.event.addListener(marker, 'click', () => {
-                alert(`${race.name}\n${race.date}`);
-              });
-            }
-          });
-        });
-
-        setStatus('ready');
-      })
-      .catch((err) => {
-        if (cancelled) return;
-        setStatus('error');
-        setErrorDetail(err.message || '지도 초기화 중 내부 오류 발생');
-      });
-
-    return () => {
-      cancelled = true;
+    const checkKakao = () => {
+      if (window.kakao && window.kakao.maps) {
+        window.kakao.maps.load(() => setIsReady(true));
+        return true;
+      }
+      return false;
     };
+    if (!checkKakao()) {
+      const interval = setInterval(() => {
+        if (window.kakao && window.kakao.maps) {
+          init();
+          clearInterval(interval);
+        }
+      }, 200);
+      const init = () => window.kakao.maps.load(() => setIsReady(true));
+      return () => clearInterval(interval);
+    }
   }, []);
 
+  const handleLinkClick = (link: string) => {
+    window.open(link, '_blank', 'noopener,noreferrer');
+  };
+
+  if (!KAKAO_KEY) return <div className="h-screen flex items-center justify-center font-black text-rose-500 text-xs tracking-widest">MAP CONFIG ERROR</div>;
+
   return (
-    <main className="relative h-screen bg-slate-50">
-      <div ref={mapContainer} className="w-full h-full" />
-
-      <div className="absolute top-6 left-4 z-20">
-        <button onClick={() => router.push('/')} className="p-3 bg-white shadow-xl rounded-full hover:bg-slate-50 transition-colors">
-          <ArrowLeft className="w-6 h-6 text-slate-900" />
-        </button>
-      </div>
-
-      {status === 'loading' && (
+    <main className="relative h-screen bg-slate-50 overflow-hidden font-sans text-slate-900">
+      {isReady ? (
+        <Map
+          center={{ lat: 36.5, lng: 127.5 }}
+          style={{ width: '100%', height: '100%' }}
+          level={12}
+        >
+          {validRaces.map((race: any) => (
+            <MapMarker
+              key={race.id}
+              position={{ lat: race.lat, lng: race.lng }}
+              onClick={() => setSelectedRace(race)}
+              image={{
+                src: race.status === '종료' 
+                  ? "https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/markerStar.png" 
+                  : "https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/marker_red.png",
+                size: { width: 24, height: 35 }
+              }}
+            />
+          ))}
+        </Map>
+      ) : (
         <div className="absolute inset-0 z-50 bg-white flex flex-col items-center justify-center">
           <div className="w-10 h-10 border-4 border-blue-600 border-t-transparent rounded-full animate-spin mb-4" />
-          <p className="text-xs font-bold text-slate-400 uppercase tracking-widest">Launching Marathon Map...</p>
+          <p className="text-[11px] font-black text-slate-400 uppercase tracking-widest italic">Loading Runner Maps...</p>
         </div>
       )}
 
-      {status === 'error' && (
-        <div className="absolute inset-0 z-[60] bg-white flex flex-col items-center justify-center p-10 text-center">
-          <AlertCircle className="w-16 h-16 text-rose-500 mb-4" />
-          <h2 className="text-xl font-black text-slate-900 mb-2">지도를 띄울 수 없습니다</h2>
-          <p className="text-slate-500 text-sm mb-8 font-medium">{errorDetail}</p>
-          <button onClick={() => window.location.reload()} className="px-8 py-3 bg-slate-900 text-white rounded-xl font-bold">새로고침</button>
+      <div className="absolute top-6 left-4 right-4 z-20 max-w-md mx-auto">
+        <div className="bg-white/90 backdrop-blur-xl rounded-[24px] shadow-2xl border border-white/20 p-2 flex items-center gap-3">
+          <button onClick={() => router.push('/')} className="p-3 hover:bg-slate-100 rounded-2xl transition-colors text-slate-900">
+            <ArrowLeft className="w-6 h-6" />
+          </button>
+          <div className="flex-1 text-sm font-black uppercase tracking-tighter italic text-slate-900">Runner Map</div>
+          <div className="pr-4"><div className="w-2 h-2 bg-emerald-500 rounded-full animate-pulse shadow-[0_0_10px_#10b981]" /></div>
+        </div>
+      </div>
+
+      {selectedRace && (
+        <div className="absolute bottom-10 left-4 right-4 z-30 max-w-md mx-auto animate-in slide-in-from-bottom duration-500">
+          <div className="bg-white rounded-[32px] shadow-[0_30px_60px_-15px_rgba(0,0,0,0.2)] p-8 border border-slate-100 relative">
+            <button onClick={() => setSelectedRace(null)} className="absolute top-4 right-6 text-slate-300 text-2xl hover:text-slate-900 transition-colors">&times;</button>
+            
+            <div className="flex items-center gap-2 mb-4">
+              <span className={`px-3 py-1 rounded-full text-[10px] font-black uppercase border ${
+                selectedRace.status === '종료' ? 'bg-slate-50 text-slate-400' : 'bg-blue-50 text-blue-600 border-blue-100'
+              }`}>
+                {selectedRace.status}
+              </span>
+              <span className="text-[10px] font-bold text-slate-300 uppercase">{selectedRace.region} Region</span>
+            </div>
+
+            <h3 className="text-[22px] font-black mb-6 leading-tight text-slate-900 line-clamp-2">{selectedRace.name}</h3>
+            
+            <div className="space-y-3 mb-8">
+              <div className="flex items-center text-slate-600 font-bold text-sm">
+                <Calendar className="w-4 h-4 mr-3 text-blue-500" /> {selectedRace.date}
+              </div>
+              <div className="flex items-center text-slate-600 font-bold text-sm">
+                <Clock className="w-4 h-4 mr-3 text-orange-500" /> {selectedRace.start_time}
+              </div>
+              <div className="flex items-center text-slate-600 font-bold text-sm">
+                <MapPin className="w-4 h-4 mr-3 text-rose-500" /> <span className="truncate">{selectedRace.location_full}</span>
+              </div>
+            </div>
+
+            <button 
+              onClick={() => handleLinkClick(selectedRace.link)}
+              className="w-full py-4 bg-slate-900 text-white rounded-[20px] font-black flex items-center justify-center gap-3 hover:bg-blue-600 transition-all shadow-xl shadow-slate-200"
+            >
+              공식 홈페이지 바로가기 <ExternalLink className="w-4 h-4" />
+            </button>
+          </div>
         </div>
       )}
     </main>
